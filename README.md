@@ -1,15 +1,14 @@
-io.js
-=====
+> Переклад [io.js](https://iojs.org/) українською
+
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/iojs/iojs-uk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This repository began as a GitHub fork of
-[joyent/node](https://github.com/joyent/node).
 
-io.js contributions, releases, and contributorship are under an
-[open governance model](./GOVERNANCE.md).
-We intend to land, with increasing regularity, releases which are
-compatible with the npm ecosystem that has been built to date for
-Node.js.
+Обговорення задач — [тут](https://github.com/iojs/iojs-uk/issues).
 
-For more information about io.js, go to the [main repo page](https://github.com/iojs/io.js).
+## Автори
+
+Якщо ви бажаєте приєднатися до складу команди, створіть новий запит [тут](https://github.com/iojs/iojs-uk/issues).
+
+- Євген Сафронов ([@sejoker](https://github.com/sejoker))
+- Андрій Лісточкін ([@listochkin](https://github.com/listochkin))

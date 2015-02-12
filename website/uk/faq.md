@@ -2,16 +2,16 @@
 
 ## Що таке io.js?
 
-[io.js](https://github.com/iojs/io.js) це JavaScript платформа, побудована на [Chrome's V8 runtime](http://code.google.com/p/v8/). Цей проект був розпочатий, як fork із [Joyent's Node.s://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100).
+[io.js](https://github.com/iojs/io.js) це JavaScript платформа, побудована на базі [Chrome's V8 runtime](http://code.google.com/p/v8/). Цей проект був розпочатий, як відгалудження із [Joyent's Node.s://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100).
 
 ## Як я можу допомогти?
 
-Кожен може допомогти. io.js дотримується [кодексу поведінки](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct). Всі внески в розвиток, релізи та будь-яка допомога перебуває в [відкритому доступі](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme).
+io.js дотримується [кодексу поведінки](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct). Всі внески в розвиток та релізи перебувають у [відкритому доступі](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme).
 
-Для початку, є відкриті [дискусії на GitHub](https://github.com/iojs/io.js/issues), де ми завжди раді почути вашу думку.
-Приймання активної участі в обговоренні - це гарний спосіб допомагати розвитку проекту. Якщо ви вирішили деяку проблему, будь ласка, [зробіть Pull Request](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-contributions).
+Для початку, є відкриті [дискусії на GitHub](https://github.com/iojs/io.js/issues), де ми завжди раді почути та прийняти до уваги вашу думку.
+Приймання активної участі в обговоренні - це один із варіантів допомагати розвитку проекту. Якщо ви внесли зміни в код, будь ласка, [зробіть Pull Request](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-contributions).
 
-Крім того, використовуючи [Nodebug.me](http://nodebug.me/) ви можете допомогти відсортувати питання.
+Крім того, використовуючи [Nodebug.me](http://nodebug.me/), ви можете допомогати відсортовувати відкриті питання на GitHub.
 
 ## Де відбуваються дискусії?
 

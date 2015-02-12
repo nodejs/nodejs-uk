@@ -2,7 +2,7 @@
 
 ## Що таке io.js?
 
-[io.js](https://github.com/iojs/io.js) це JavaScript платформа, побудована на основі [Chrome's V8 runtime](http://code.google.com/p/v8/). Цей проект було розпочато, як відгалуження від [Joyent's Node.s://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100).
+[io.js](https://github.com/iojs/io.js) це JavaScript платформа, побудована на основі [Chrome's V8 runtime](http://code.google.com/p/v8/). Цей проект було розпочато, як відгалуження від [Joyent's Node](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100).
 
 ## Як я можу допомогти?
 

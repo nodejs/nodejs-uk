@@ -64,13 +64,13 @@ io.js побудований на основі сучасних версій [V8
 iojs --v8-options | grep "in progress"
 ```
 
-## I have my infrastructure set up to leverage the --harmony flag. Should I remove it?
+## У мене використовується параметр --harmony. Чи можна його видалити?
 
-The current behaviour of the `--harmony` flag on io.js is to enable **staged** features only. After all, it is now a synonym of `--es_staging`. As mentioned above, these are completed features that have not been considered stable yet. If you want to play safe, especially on production environments, consider removing this runtime flag until it ships by default on V8 and, consequently, on io.js. If you keep this enabled, you should be prepared for further io.js upgrades to break your code if V8 changes their semantics to more closely follow the standard.
+На даний момент, `--harmony` параметр в io.js вмикає лише **staged** можливості. Зрештою, це синонім `--es_staging` параметру. Як уже згадувалось вище, ці можливості ще не вважаються стабільними. Якщо ви хочете бути впевнені в стабільності, особливо в production, ви повинні видалити цей параметр до тих пір, доки ці можливості не стануть можливостями по замовчуванню в V8, а отже, і в io.js. Якщо ви залишите цей параметр ввімкненим, ви повинні бути готові до того, що наступні версії io.js, скоріш за все, зламають ваш код, якщо V8 зміне їх семантику.
 
-## How do I find which version of V8 ships with a particular version of io.js?
+## Як мені дізнатись, яку версію V8 використовує io.js?
 
-io.js provides a simple way to list all dependencies and respective versions that ship with a specific binary through the `process` global object. In case of the V8 engine, type the following in your terminal to retrieve its version:
+io.js забезпечує простий спосіб перелічити всі залежності і їх версії, які доступні в глобальному `process` об'єкті. Якщо ви хочете дізнатись версію V8, виконайте наступну команду:
 
 ```sh
 iojs -p process.versions.v8

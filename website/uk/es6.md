@@ -20,7 +20,7 @@ io.js побудований на основі сучасних версій [V8
 
     *   `function`-in-blocks
 
-    >As of v8 3.31.74.1, block-scoped declarations are [intentionally implemented with a non-compliant limitation to strict mode code](https://groups.google.com/forum/#!topic/v8-users/3UXNCkAU8Es). Developers should be aware that this will change as v8 continues towards ES6 specification compliance.
+    >Станом на V8 3.31.74.1, block-scoped declarations [навмисно реалізовані з обмеженнями в strict mode](https://groups.google.com/forum/#!topic/v8-users/3UXNCkAU8Es). Розробники мають знати, що це зміниться в наступних версіях V8, які продовжують інтегрувати нові можливості ES6.
 
 *   Collections
 
@@ -44,21 +44,21 @@ io.js побудований на основі сучасних версій [V8
 
 *   [Template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings)
 
-You can view a more detailed list, including a comparison with other engines, on the [compat-table](https://kangax.github.io/compat-table/es6/) project page.
+Ви можете переглянути більш докладний список, в тому числі і порівняння з іншими "двигунами", в [таблиці порівняння](https://kangax.github.io/compat-table/es6/).
 
-## Which ES6 features are behind the --es_staging flag?
+## Які ES6 можливості вмикаються із --es_staging параметром?
 
-*   [Classes](https://github.com/lukehoban/es6features#classes) (strict mode only, behind flag `--harmony_classes` which implies block scoping & object literal extensions)
+*   [Classes](https://github.com/lukehoban/es6features#classes) (лише в strict mode, з параметром `--harmony_classes`, which implies block scoping & object literal extensions)
 
-*   [Object literal extensions](https://github.com/lukehoban/es6features#enhanced-object-literals) (behind flag `--harmony_object_literals`)
+*   [Object literal extensions](https://github.com/lukehoban/es6features#enhanced-object-literals) (з параметром запуску `--harmony_object_literals`)
 
-*   [`Symbol.toStringTag`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) (user-definable results for `Object.prototype.toString`, behind flag `--harmony_tostring`)
+*   [`Symbol.toStringTag`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) (user-definable results for `Object.prototype.toString`, з параметром `--harmony_tostring`)
 
-## Which ES6 features are in progress?
+## Котрі ES6 можливості в стадії розробки?
 
-New features are constantly being added to the V8 engine. Generally speaking, expect them to land on a future io.js release, although timing is unknown.
+Нові можливості постійно добавляються в V8. Взагалі кажучи, ми очікуємо, що вони з'являться в наступних io.js релізах, хоча терміни і невідомі.
 
-You may list all the *in progress* features available on each io.js release by grepping through the `--v8-options` argument. Please note that these are incomplete and possibly broken features of V8, so use them at your own risk:
+Ви можете продивитись список всіх *in progress* можливостей в кожному io.js релізі, запустивши iojs з параметром `--v8-options`. Будь ласка, зверніть увагу, що це нестабільні можливості V8, тому використовуйте їх на свій страх і ризик:
 
 ```sh
 iojs --v8-options | grep "in progress"

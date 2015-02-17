@@ -2,7 +2,11 @@
 
 io.js побудований на основі сучасних версій [V8](https://code.google.com/p/v8/). Підтримуючи останні версії [V8](https://code.google.com/p/v8/) в io.js, ми гарантуємо наявність нових можливостей [JavaScript ECMA-262 specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm), які привносяться до io.js розробників своєчасно, а також підвищують швидкість роботи та стабільність.
 
-Версія io.js 1.2.0 має версію V8 4.1.0.14, яка включає в себе ES6 можливості, котрих немає в V8 3.28.73, яка іде в поставці з Node - [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*), які не мають відомих проблем. Таким чином, більшість розробників вмикають лише ті можливості ES6, які їм потрібні, за допомогою спеціального флагу (наприклад `--harmony-generators`), чи просто вмикають їх всі.
+Версія io.js 1.2.0 має версію V8 4.1.0.14, яка включає в себе ES6 можливості, котрих немає в V8 3.28.73, яка іде в поставці з Node™@0.12x.
+
+# Більше ніяких --harmony параметрів
+
+В Node.js™@0.12x (V8 3.28+), --harmony параметр вмикає всі **shipping**, **staged** та **in progress** ES6 можливості (окрім proxies, котрі вмикаються параметром --harmony-proxies). Це означає що код з помилками, чи навіть непрацюючі можливості, наприклад [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) стають доступними в коді так само, як і [генератори](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*), котрі не мають відомих проблем взагалі. Багато розробників вмикають лише ті можливості, котрі їм потрібні, використовуючи параметри запуску (наприклад, `--harmony-generators`). Чи взагалі, вмикають всі можливості одним параметром.
 
 З io.js@1.x (V8 4.1+) складність використання ES6 можливостей зникає. Всі harmony можливості логічно розподілені на три групи **shipping**, **staged** та **in progress**:
 

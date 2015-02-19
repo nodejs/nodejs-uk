@@ -11,3 +11,4 @@
 - Євген Сафронов ([@sejoker](https://github.com/sejoker))
 - Андрій Лісточкін ([@listochkin](https://github.com/listochkin))
 - Євген Обрезков ([@ghaiklor](https://github.com/ghaiklor))
+- Андрій Корж ([@korzhyk](https://github.com/korzhyk))

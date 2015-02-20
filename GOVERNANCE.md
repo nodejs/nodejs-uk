@@ -41,68 +41,37 @@ _Примітка:_ Якщо ви робите значний внесок і В
 
 Співавтори можуть вибрати, щоб підняти на обговорення значну або спірну зміну, для якої не знайшли консенсусу в РГ, шляхом присвоєння тега ***WG-agenda*** до pull-запиту або тікета. РГ повинна служити в якості остаточного арбітра де це необхідно.
 
-## РГ Членство
+## Членство в РГ
 
-WG seats are not time-limited.  There is no fixed size of the WG.
-However, the expected target is between 6 and 12, to ensure adequate
-coverage of important areas of expertise, balanced with the ability to
-make decisions efficiently.
+Місця в РГ не лімітовані часом, кількість участників РГ також не обмежена. Але очікуваний розмір групи повинен бути між 6 та 12 участниками, щоб впевнетись у адекватному покритті галузі знань збалансованої з можливостю єффективно приймати рішення.
 
-There is no specific set of requirements or qualifications for WG
-membership beyond these rules.
+Немае ніяких специфічних вимог або кваліфикацій для участі в РГ, окрім цих правил.
 
-The WG may add additional members to the WG by unanimous consensus.
+РГ може додавати нових учасників до РГ за загальним консенсусом.
 
-A WG member may be removed from the WG by voluntary resignation, or by
-unanimous consensus of all other WG members.
+Член РГ може вийти зі складу РГ за добровільним рішенням або за загальним консенсусом решти членів РГ.
 
-Changes to WG membership should be posted in the agenda, and may be
-suggested as any other agenda item (see "WG Meetings" below).
+Зміни до членства в РГ повинні бути внесені у порядок денний та можуть бути запропоновані як будь-який інший пункт порядку денного (дивись нижче "Зустрічі РГ").
 
-If an addition or removal is proposed during a meeting, and the full
-WG is not in attendance to participate, then the addition or removal
-is added to the agenda for the subsequent meeting.  This is to ensure
-that all members are given the opportunity to participate in all
-membership decisions.  If a WG member is unable to attend a meeting
-where a planned membership decision is being made, then their consent
-is assumed.
+Якщо додання або усунення нового члена РГ запропоновано упродовж зустрічі і РГ була присутня не у повному обсязі, - тоді додання або усунення повинні буди врахованіі до порядку денного на наступну зустріч. Це потрібно для того, щоб впевнитись, що кожний участник мав змогу прийняти участь у рішенні щодо нових членів РГ. Якщо член РГ не зміг відвідати зустріч, де обговорювалась участь нового члена, то у такому випадку вважається, що він згоден.
 
-No more than 1/3 of the WG members may be affiliated with the same
-employer.  If removal or resignation of a WG member, or a change of
-employment by a WG member, creates a situation where more than 1/3 of
-the WG membership shares an employer, then the situation must be
-immediately remedied by the resignation or removal of one or more WG
-members affiliated with the over-represented employer(s).
+Не більш ніж 1/3 учасників РГ можуть бути афілійовані з однією й тією ж компанією. Якщо додання або усунненя члена РГ, або зміна працевлаштування члена РГ створює ситуацію, коли більш ніж 1/3 участників РГ афілійована з одним роботодавцем, в такому випадку ситуація повинна бути негайно виправлена усуненням одного або більше членів РГ, афілійованих з цим роботодавцем.
 
-## WG Meetings
+## Зустрічі РГ
 
-The WG meets weekly on a Google Hangout On Air. The meeting is run by
-a designated moderator approved by the WG. Each meeting should be
-published to YouTube.
+РГ зустрічаються кожну неділю в Google Hangout On Air. Зустріччю керує модератор, вибранний РГ. Кожна зустріч повинна бути завантажена на YouTube.
 
-Items are added to the WG agenda which are considered contentious or
-are modifications of governance, contribution policy, WG membership,
-or release process.
+До порядку денного РГ додаються питання, які вважаються сумнівними, або зміни до правил управління проектом, політики, внеску, складу РГ, або процесу релізу.
 
-The intention of the agenda is not to approve or review all patches,
-that should happen continuously on GitHub and be handled by the larger
-group of Collaborators.
+Порядок денний створюється не для того, щоб затвердити, або розглянути усі патчі, це повинно робитись поступово, використовуючи GitHub та оброблятися більшістю співробітників.
 
-Any community member or contributor can ask that something be added to
-the next meeting's agenda by logging a GitHub Issue. Any Collaborator,
-WG member or the moderator can add the item to the agenda by adding
-the ***WG-agenda*** tag to the issue.
+Кожен член ком’юніті може створити тікет на GitHub та запросити, щоб його тему внесли до наступного порядку денного. Кожен співробітник, член РГ, або модератор може внести новий пункт до порядку денного, додавши тег WG-agenda до тікета.
 
-Prior to each WG meeting the moderator will share the Agenda with
-members of the WG. WG members can add any items they like to the
-agenda at the beginning of each meeting. The moderator and the WG
-cannot veto or remove items.
+Перед кожною зустріччу РГ, модератор поширює серед членів РГ порядок денний. Участники РГ вносять  свої питання та пропозиції  до порядку денного до початку кожної зустрічі. Модератор та РГ не можуть накласти вето або видалити питання.
 
-The WG may invite persons or representatives from certain projects to
-participate in a non-voting capacity.
+РГ мае право запросити інших участників, або представників певних проектів прийняти участь без права голосу.
 
-The moderator is responsible for summarizing the discussion of each
-agenda item and send it as a pull request after the meeting.
+Модератор повинен підвести підсумки після обговорення кожного порядку денного та створити pull-запит після зустрічі.
 
 ## Шлях пошуку консенсусу
 

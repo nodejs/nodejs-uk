@@ -5,38 +5,38 @@ io.js - глобальна платформа, отже цей сайт має �
 
 ## Для осіб, які бажають зробити свій внесок
 * Зверніться до відповідної групи по локалізації, і обговоріть з ними як можна краще внести свій вклад. Список груп локалізації можна знайти тут:
-    * [`iojs-bn`](https://github.com/iojs/iojs-bn) Бенгальска Группа
-    * [`iojs-cn`](https://github.com/iojs/iojs-cn) Китайська Группа 
-    * [`iojs-cs`](https://github.com/iojs/iojs-cs) Чеська Группа 
-    * [`iojs-da`](https://github.com/iojs/iojs-da) Данська Группа 
-    * [`iojs-de`](https://github.com/iojs/iojs-de) Німецька Группа
-    * [`iojs-el`](https://github.com/iojs/iojs-el) Грецька Группа
-    * [`iojs-es`](https://github.com/iojs/iojs-es) Іспанська Группа
-    * [`iojs-fa`](https://github.com/iojs/iojs-fa) Перська Группа 
-    * [`iojs-fi`](https://github.com/iojs/iojs-fi) Фінська Группа
-    * [`iojs-fr`](https://github.com/iojs/iojs-fr) Французька Группа
-    * [`iojs-he`](https://github.com/iojs/iojs-he) Івритська Группа
-    * [`iojs-hi`](https://github.com/iojs/iojs-hi) Хінді Группа 
-    * [`iojs-hu`](https://github.com/iojs/iojs-hu) Угорськf Группа
-    * [`iojs-id`](https://github.com/iojs/iojs-id) Індонезійська Группа
-    * [`iojs-it`](https://github.com/iojs/iojs-it) Італійськf Группа
-    * [`iojs-ja`](https://github.com/iojs/iojs-ja) Японська Группа
-    * [`iojs-ka`](https://github.com/iojs/iojs-ka) Грузинська Группа
-    * [`iojs-kr`](https://github.com/iojs/iojs-kr) Корейська Группа
-    * [`iojs-mk`](https://github.com/iojs/iojs-mk) Македонська Группа
-    * [`iojs-nl`](https://github.com/iojs/iojs-nl) Голландська Группа
-    * [`iojs-no`](https://github.com/iojs/iojs-no) Норвезька Группа
-    * [`iojs-pl`](https://github.com/iojs/iojs-pl) Польська Группа
-    * [`iojs-pt`](https://github.com/iojs/iojs-pt) Португальська Группа
-    * [`iojs-ro`](https://github.com/iojs/iojs-ro) Румунська Группа
-    * [`iojs-ru`](https://github.com/iojs/iojs-ru) Російська Группа
-    * [`iojs-sv`](https://github.com/iojs/iojs-sv) Шведська Группа
-    * [`iojs-tr`](https://github.com/iojs/iojs-tr) Турецька Группа
-    * [`iojs-tw`](https://github.com/iojs/iojs-tw) Тайванська Группа
-    * [`iojs-uk`](https://github.com/iojs/iojs-uk) Українська Группа
+    * [`iojs-bn`](https://github.com/iojs/iojs-bn) Бенгальська Група
+    * [`iojs-cn`](https://github.com/iojs/iojs-cn) Китайська Група 
+    * [`iojs-cs`](https://github.com/iojs/iojs-cs) Чеська Група 
+    * [`iojs-da`](https://github.com/iojs/iojs-da) Данська Група 
+    * [`iojs-de`](https://github.com/iojs/iojs-de) Німецька Група
+    * [`iojs-el`](https://github.com/iojs/iojs-el) Грецька Група
+    * [`iojs-es`](https://github.com/iojs/iojs-es) Іспанська Група
+    * [`iojs-fa`](https://github.com/iojs/iojs-fa) Перська Група 
+    * [`iojs-fi`](https://github.com/iojs/iojs-fi) Фінська Група
+    * [`iojs-fr`](https://github.com/iojs/iojs-fr) Французька Група
+    * [`iojs-he`](https://github.com/iojs/iojs-he) Івритська Група
+    * [`iojs-hi`](https://github.com/iojs/iojs-hi) Хінді Група 
+    * [`iojs-hu`](https://github.com/iojs/iojs-hu) Угорськf Група
+    * [`iojs-id`](https://github.com/iojs/iojs-id) Індонезійська Група
+    * [`iojs-it`](https://github.com/iojs/iojs-it) Італійськf Група
+    * [`iojs-ja`](https://github.com/iojs/iojs-ja) Японська Група
+    * [`iojs-ka`](https://github.com/iojs/iojs-ka) Грузинська Група
+    * [`iojs-kr`](https://github.com/iojs/iojs-kr) Корейська Група
+    * [`iojs-mk`](https://github.com/iojs/iojs-mk) Македонська Група
+    * [`iojs-nl`](https://github.com/iojs/iojs-nl) Голландська Група
+    * [`iojs-no`](https://github.com/iojs/iojs-no) Норвезька Група
+    * [`iojs-pl`](https://github.com/iojs/iojs-pl) Польська Група
+    * [`iojs-pt`](https://github.com/iojs/iojs-pt) Португальська Група
+    * [`iojs-ro`](https://github.com/iojs/iojs-ro) Румунська Група
+    * [`iojs-ru`](https://github.com/iojs/iojs-ru) Російська Група
+    * [`iojs-sv`](https://github.com/iojs/iojs-sv) Шведська Група
+    * [`iojs-tr`](https://github.com/iojs/iojs-tr) Турецька Група
+    * [`iojs-tw`](https://github.com/iojs/iojs-tw) Тайванська Група
+    * [`iojs-uk`](https://github.com/iojs/iojs-uk) Українська Група
     
 ## Для групп локалізації
-* Переконайтеся, що всі переклади на сайті зроблені як pull-запити в цьому репозиторії. Це дозволить забезпечити процес білдингу, розміщення та стиль, залишаються незмінними в усіх перекладах сайту.
+* Переконайтеся, що всі переклади на сайті зроблені як як pull-запити в цей репозиторій. Це дозволить забезпечити незмінний процес білдингу, розмітки та стилів, для всіх перекладів сайту.
 * Ви можете знайти папку з відповідною мовою в `content/`
 * В ній повинні бути наступні файли:
     * `template.json` (для тексту в кнопках і заголовка з відповідним перекладом)

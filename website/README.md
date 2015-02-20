@@ -1,22 +1,14 @@
 # [iojs.org](https://iojs.org/)
 
-##### [MIT Licensed](LICENSE)
+Оригінальний репозиторій знаходиться [тут](https://github.com/iojs/website). В цьому файлі ми лише переводимо їх власний README.
 
-## Project Structure
+## Структура проекту
 
-- [./content](./content) contains the source articles, organized by language-team groupings.
-  Articles are written in
-  [Github-flavoured Markdown](https://help.github.com/articles/github-flavored-markdown/).
-- [./gulp](./gulp) organizes the [Gulp.js](http://gulpjs.com/)-driven build scripts used
-  by the project.
-- [./public](./public) **currently** contains the full library of website content generated
-  by the build scripts. Changes should not be made directly here. Soon, we'll
-  be switching over to leveraging [iojs/build](https://github.com/iojs/build)
-  to help automate this.
-- [./source](./source) houses the reusable styling and structural elements used by the
-  project.
-- [./wg-meetings](./wg-meetings) is an archive of the meeting minutes from this project's
-  Working Group (see [./GOVERNANCE.md](./GOVERNANCE.md)).
+- **content** містить матеріали, переведені групами локалізації. Матеріали повинні бути написані в [Github-flavoured Markdown](https://help.github.com/articles/github-flavored-markdown/);
+- **gulp** зберігає скрипти для [Gulp.js](http://gulpjs.com/);
+- **public** містить всі файли, які були згенеровані скриптами Gulp.js. Змінювати щось в ції директорії заборонено. Скоро ми почнемо використовувати [iojs/build](https://github.com/iojs/build) щоб автоматизувати цей процес.
+- **source** зберігає стилі та структурні одиниці, котрі необхідні для проекту.
+- **wg-meetings** - це архів, в якому зберігаются мітинги Робочої Групи (РГ) (дивіться [../GOVERNANCE.md](../GOVERNANCE.md)).
 
 ## Running Locally
 

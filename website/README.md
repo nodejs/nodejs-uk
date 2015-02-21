@@ -10,33 +10,31 @@
 - **source** зберігає стилі та структурні одиниці, котрі необхідні для проекту.
 - **wg-meetings** - це архів, в якому зберігаются мітинги Робочої Групи (РГ) (дивіться [../GOVERNANCE.md](../GOVERNANCE.md)).
 
-## Running Locally
+## Запуск на локальній машині
 
-### Dependencies
+### Залежності
+
 ```
 git clone https://github.com/iojs/website.git
 npm install -g gulp
 npm install
 ```
 
-### Local Development
+### Локальна розробка
+
 ```
 gulp
 ```
-Runs a local HTTP server on port 4657 with live-reload, which will update
-your browser immediately with content or style changes. Generated assets
-are provided to the [./public]() directory for publishing.
 
-## Deployment
+Запускає локальний HTTP сервер на порту 4657 з live-reload, який онове сторінку в браузері відразу, як зміняться стилі чи контент. Згенеровані файли знаходяться в **public** директорії, готові до публікування.
 
-The website is currently hosted on a (sponsored) 3rd party provider with a deployment
-process managed via the [io.js build team](https://github.com/iojs/build). As repo
-changes are approved and merged to the master branch, changes are automatically
-deployed within a few minutes.
+## Розгортання на сервері
 
-## Current Project Team Members
+Вебсайт в даний час розміщується на спонсорському 3rd party хостингу, процес розгортання якого керується [командой збірки io.js](https://github.com/iojs/build). Як тільки репозиторій змінюється і зміни інтегровані в master вітку - нова версія автоматично розгортується на хостингі за декілька хвилин.
 
-* Trent Oswald (@therebelrobot) **Facilitator**
+## Поточні члени проектної групи
+
+* Trent Oswald (@therebelrobot) **Ведучий**
 * Mikeal Rogers (@mikeal)
 * Jeremiah Senkpiel (@Fishrock123)
 * Charlie Robbins (@indexzero)

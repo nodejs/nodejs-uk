@@ -1,50 +1,40 @@
 # [iojs.org](https://iojs.org/)
 
-##### [MIT Licensed](LICENSE)
+Оригінальний репозиторій знаходиться [тут](https://github.com/iojs/website). В цьому файлі ми лише переводимо їх власний README.
 
-## Project Structure
+## Структура проекту
 
-- [./content](./content) contains the source articles, organized by language-team groupings.
-  Articles are written in
-  [Github-flavoured Markdown](https://help.github.com/articles/github-flavored-markdown/).
-- [./gulp](./gulp) organizes the [Gulp.js](http://gulpjs.com/)-driven build scripts used
-  by the project.
-- [./public](./public) **currently** contains the full library of website content generated
-  by the build scripts. Changes should not be made directly here. Soon, we'll
-  be switching over to leveraging [iojs/build](https://github.com/iojs/build)
-  to help automate this.
-- [./source](./source) houses the reusable styling and structural elements used by the
-  project.
-- [./wg-meetings](./wg-meetings) is an archive of the meeting minutes from this project's
-  Working Group (see [./GOVERNANCE.md](./GOVERNANCE.md)).
+- **content** містить матеріали, переведені групами локалізації. Матеріали повинні бути написані в [Github-flavoured Markdown](https://help.github.com/articles/github-flavored-markdown/);
+- **gulp** зберігає скрипти для [Gulp.js](http://gulpjs.com/);
+- **public** містить всі файли, які були згенеровані скриптами Gulp.js. Не потрібно щось змінювати в цій директорії напряму. Скоро ми почнемо використовувати [iojs/build](https://github.com/iojs/build) щоб автоматизувати цей процес.
+- **source** зберігає стилі та структурні одиниці, котрі необхідні для проекту.
+- **wg-meetings** - це архів, в якому зберігаются мітинги Робочої Групи (РГ) (дивіться [../GOVERNANCE.md](../GOVERNANCE.md)).
 
-## Running Locally
+## Запуск на локальній машині
 
-### Dependencies
+### Залежності
+
 ```
 git clone https://github.com/iojs/website.git
 npm install -g gulp
 npm install
 ```
 
-### Local Development
+### Локальна розробка
+
 ```
 gulp
 ```
-Runs a local HTTP server on port 4657 with live-reload, which will update
-your browser immediately with content or style changes. Generated assets
-are provided to the [./public]() directory for publishing.
 
-## Deployment
+Запускає локальний HTTP сервер на порту 4657 з live-reload, який онове сторінку в браузері відразу, як зміняться стилі чи контент. Згенеровані файли знаходяться в **public** директорії, готові до публікування.
 
-The website is currently hosted on a (sponsored) 3rd party provider with a deployment
-process managed via the [io.js build team](https://github.com/iojs/build). As repo
-changes are approved and merged to the master branch, changes are automatically
-deployed within a few minutes.
+## Розгортання на сервері
 
-## Current Project Team Members
+Вебсайт в даний час розміщується на спонсорському 3rd party хостингу, процес розгортання якого керується [командой компонування io.js](https://github.com/iojs/build). Як тільки репозиторій змінюється і зміни інтегровані в master гілку - нова версія автоматично розгортується на хостингі за декілька хвилин.
 
-* Trent Oswald (@therebelrobot) **Facilitator**
+## Поточні члени проектної групи
+
+* Trent Oswald (@therebelrobot) **Ведучий**
 * Mikeal Rogers (@mikeal)
 * Jeremiah Senkpiel (@Fishrock123)
 * Charlie Robbins (@indexzero)

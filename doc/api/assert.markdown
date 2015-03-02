@@ -1,93 +1,93 @@
 # Assert
 
-    Stability: 5 - Locked
+    Стабільність: 5 - API зафіксовано
     
 
-This module is used for writing unit tests for your applications, you can access it with `require('assert')`.
+Даний модуль використовується для написання модульних тестів для ваших програм, ви можете отримати до нього доступ за допомогою `require('assert')`.
 
-## assert.fail(actual, expected, message, operator)
+## assert.fail(фактичне, очікуване, повідомлення, оператор)
 
-Throws an exception that displays the values for `actual` and `expected` separated by the provided operator.
+Виникне виняток з повідомленням, що буде містити `фактичне` та `очікуване` значення, а також оператор порівняння.
 
-## assert(value[, message]), assert.ok(value[, message])
+## assert(значення[, повідомлення]), assert.ok(значення[, повідомлення])
 
-Tests if value is truthy, it is equivalent to `assert.equal(true, !!value, message);`
+Перевірка значення на істину, це еквівалентно наступному коду `assert.equal(true, !!значення, повідомлення);`
 
-## assert.equal(actual, expected[, message])
+## assert.equal(фактичне, очікуване[, повідомлення])
 
-Tests shallow, coercive equality with the equal comparison operator ( `==` ).
+Перевірка на рівність, поверхнева перевірка двох значень за допомогою оператора рівності( `==` ).
 
-## assert.notEqual(actual, expected[, message])
+## assert.notEqual(фактичне, очікуване[, повідомлення])
 
-Tests shallow, coercive non-equality with the not equal comparison operator ( `!=` ).
+Перевірка на нерівність, поверхнева перевірка двох значень за допомогою оператора нерівності( `!=` ).
 
-## assert.deepEqual(actual, expected[, message])
+## assert.deepEqual (фактичне, очікуване[, повідомлення])
 
-Tests for deep equality. Primitive values are compared with the equal comparison operator ( `==` ). Doesn't take object prototypes into account.
+Перевірка рівності двох значень з перевіркою вмісту. Для примітивних значень використовується оператор поверхневої рівності ( `==` ). Об'єкти прототипів не враховуються.
 
-## assert.notDeepEqual(actual, expected[, message])
+## assert.notDeepEqual (фактичне, очікуване[, повідомлення])
 
-Tests for any deep inequality. Opposite of `assert.deepEqual`.
+Протилежний методу `assert.deepEqual`.
 
-## assert.strictEqual(actual, expected[, message])
+## assert.strictEqual (фактичне, очікуване[, повідомлення])
 
-Tests strict equality, as determined by the strict equality operator ( `===` )
+Перевірка точної рівності значень за допомогою оператора (`===`)
 
-## assert.notStrictEqual(actual, expected[, message])
+## assert.notStrictEqual (фактичне, очікуване[, повідомлення])
 
-Tests strict non-equality, as determined by the strict not equal operator ( `!==` )
+Перевірка не точної відповідності за допомогою оператора (`!==`)
 
-## assert.deepStrictEqual(actual, expected[, message])
+## assert.deepStrictEqual(фактичне, очікуване[, повідомлення])
 
-Tests for deep equality. Primitive values are compared with the strict equality operator ( `===` ).
+Перевірка точної рівності двох значень з перевіркою вмісту. Для примітивних значень використовується оператор точної рівності ( `===` ).
 
-## assert.notDeepStrictEqual(actual, expected[, message])
+## assert.notDeepStrictEqual(фактичне, очікуване[, повідомлення])
 
-Tests for deep inequality. Opposite of `assert.deepStrictEqual`.
+Перевірка не точної рівності з урахування вмісту. Протилежний методу `assert.deepStrictEqual`.
 
-## assert.throws(block\[, error\]\[, message\])
+## assert.throws(блок\[, помилка\]\[, повідомлення\])
 
-Expects `block` to throw an error. `error` can be constructor, `RegExp` or validation function.
+Перевірка `блоку` на виникнення вийнятку. `помилка` може бути конструктором, `RegExp` або перевірочною функцією.
 
-Validate instanceof using constructor:
+Перевірка екземпляру, використовуючи конструктор:
 
     assert.throws(
       function() {
-        throw new Error("Wrong value");
+        throw new Error("Не правильне значення");
       },
       Error
     );
     
 
-Validate error message using RegExp:
+Перевірка повідомлення помилки за допомогою RegExp:
 
     assert.throws(
       function() {
-        throw new Error("Wrong value");
+        throw new Error("Не вірне значення");
       },
-      /value/
+      /значення/
     );
     
 
-Custom error validation:
+Довільна перевірка помилки:
 
     assert.throws(
       function() {
-        throw new Error("Wrong value");
+        throw new Error("Не вірне значення");
       },
       function(err) {
-        if ( (err instanceof Error) && /value/.test(err) ) {
+        if ( (err instanceof Error) && /значення/.test(err) ) {
           return true;
         }
       },
-      "unexpected error"
+      "неочікувана помилка"
     );
     
 
-## assert.doesNotThrow(block[, message])
+## assert.doesNotThrow(блок[, повідомлення])
 
-Expects `block` not to throw an error, see `assert.throws` for details.
+Перевірка `блоку` на виконання без виникнення вийнятку, детальніше `assert.throws`.
 
-## assert.ifError(value)
+## assert.ifError(значення)
 
-Tests if value is not a false value, throws if it is a true value. Useful when testing the first argument, `error` in callbacks.
+Перевірка значення на хибність, виникає вийняток, якщо значення істина. Може бути корисним для тестування першого аргументу `помилки` у функції зворотнього виклику.

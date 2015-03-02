@@ -3,14 +3,14 @@
     Stability: 3 - Stable
     
 
-You can access this module with:
+Ви маєте доступ до цього модуля з:
 
     var zlib = require('zlib');
     
 
-This provides bindings to Gzip/Gunzip, Deflate/Inflate, and DeflateRaw/InflateRaw classes. Each class takes the same options, and is a readable/writable Stream.
+Це забезпечує прив'язки до Gzip/Gunzip, Deflate/Inflate та DeflateRaw/InflateRaw-класи. Кожен клас приймає ті самі параметри і це є читабельним/для запису потік.
 
-## Examples
+## Приклади
 
 Compressing or decompressing a file can be done by piping an fs.ReadStream into a zlib stream, then into an fs.WriteStream.
 
@@ -22,7 +22,7 @@ Compressing or decompressing a file can be done by piping an fs.ReadStream into 
     inp.pipe(gzip).pipe(out);
     
 
-Compressing or decompressing data in one step can be done by using the convenience methods.
+Стиснення або декомпресії даних за один крок може бути зроблено за допомогою методів зручності.
 
     var input = '.................................';
     zlib.deflate(input, function(err, buffer) {
@@ -70,7 +70,7 @@ To use this module in an HTTP client or server, use the [accept-encoding](http:/
     
     // server example
     // Running a gzip operation on every request is quite expensive.
-    // It would be much more efficient to cache the compressed buffer.
+    Було б набагато більш ефективним на кешування стиснених буфера.
     var zlib = require('zlib');
     var http = require('http');
     var fs = require('fs');
@@ -98,19 +98,19 @@ To use this module in an HTTP client or server, use the [accept-encoding](http:/
 
 ## zlib.createGzip([options])
 
-Returns a new [Gzip](#zlib_class_zlib_gzip) object with an [options](#zlib_options).
+Повертає новий об'єкт [Gzip](#zlib_class_zlib_gzip) з [варіанти](#zlib_options).
 
 ## zlib.createGunzip([options])
 
-Returns a new [Gunzip](#zlib_class_zlib_gunzip) object with an [options](#zlib_options).
+Повертає новий об'єкт [Gzip](#zlib_class_zlib_gzip) з [налаштувань](#zlib_options).
 
 ## zlib.createDeflate([options])
 
-Returns a new [Deflate](#zlib_class_zlib_deflate) object with an [options](#zlib_options).
+Повертає новий об'єкт [Deflate](#zlib_class_zlib_deflate) з [налаштувань](#zlib_options).
 
 ## zlib.createInflate([options])
 
-Returns a new [Inflate](#zlib_class_zlib_inflate) object with an [options](#zlib_options).
+Повертає новий об'єкт [Deflate](#zlib_class_zlib_deflate) з [налаштувань](#zlib_options).
 
 ## zlib.createDeflateRaw([options])
 
@@ -118,11 +118,11 @@ Returns a new [DeflateRaw](#zlib_class_zlib_deflateraw) object with an [options]
 
 ## zlib.createInflateRaw([options])
 
-Returns a new [InflateRaw](#zlib_class_zlib_inflateraw) object with an [options](#zlib_options).
+Повертає новий об'єкт [Deflate](#zlib_class_zlib_deflate) з [налаштувань](#zlib_options).
 
 ## zlib.createUnzip([options])
 
-Returns a new [Unzip](#zlib_class_zlib_unzip) object with an [options](#zlib_options).
+Повертає новий об'єкт [Gzip](#zlib_class_zlib_gzip) з [налаштувань](#zlib_options).
 
 ## Class: zlib.Zlib
 
@@ -220,7 +220,7 @@ Decompress a raw Buffer with InflateRaw.
 
 Decompress a raw Buffer with Unzip.
 
-## Options
+## Параметри
 
 <!--type=misc-->
 
@@ -271,7 +271,7 @@ The speed of zlib compression is affected most dramatically by the `level` setti
 
 In general, greater memory usage options will mean that io.js has to make fewer calls to zlib, since it'll be able to process more data in a single `write` operation. So, this is another factor that affects the speed, at the cost of memory usage.
 
-## Constants
+## Константи
 
 <!--type=misc-->
 
@@ -306,7 +306,7 @@ Compression levels.
   * `zlib.Z_BEST_COMPRESSION`
   * `zlib.Z_DEFAULT_COMPRESSION`
 
-Compression strategy.
+Стиснення стратегії.
 
   * `zlib.Z_FILTERED`
   * `zlib.Z_HUFFMAN_ONLY`
@@ -314,14 +314,14 @@ Compression strategy.
   * `zlib.Z_FIXED`
   * `zlib.Z_DEFAULT_STRATEGY`
 
-Possible values of the data_type field.
+Можливі значення поля data_type.
 
   * `zlib.Z_BINARY`
   * `zlib.Z_TEXT`
   * `zlib.Z_ASCII`
   * `zlib.Z_UNKNOWN`
 
-The deflate compression method (the only one supported in this version).
+Метод стиснення deflate (єдиний підтримується в цій версії).
 
   * `zlib.Z_DEFLATED`
 

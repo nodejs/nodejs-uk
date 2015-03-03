@@ -1,26 +1,28 @@
 # Політика перекладу сайту io.js
 
 io.js - глобальна платформа, отже вона має декілька локалізацій.
-Перекладом на окремі мови займаються перекладачі робочої групи певної мови. Якщо Ви бажаєте внести свій внесок у переклад iojs, будь ласка, користуйтесь наступною інструкцією:
+Перекладом на окремі мови займаються перекладачі робочої групи певної мови.
+Якщо Ви бажаєте внести свій внесок у переклад iojs, будь ласка, користуйтесь наступною інструкцією:
 
 ## Для осіб, які бажають зробити свій внесок
 
-* Зверніться до відповідної групи по локалізації, і обговоріть з ними як можна краще внести свій вклад. Список груп локалізації можна знайти тут:
+* Зверніться до відповідної групи по локалізації, і обговоріть з ними як можна краще внести свій вклад.
+Список груп локалізації можна знайти тут:
     * [`iojs-bn`](https://github.com/iojs/iojs-bn) Бенгальська Група
-    * [`iojs-cn`](https://github.com/iojs/iojs-cn) Китайська Група 
-    * [`iojs-cs`](https://github.com/iojs/iojs-cs) Чеська Група 
-    * [`iojs-da`](https://github.com/iojs/iojs-da) Данська Група 
+    * [`iojs-cn`](https://github.com/iojs/iojs-cn) Китайська Група
+    * [`iojs-cs`](https://github.com/iojs/iojs-cs) Чеська Група
+    * [`iojs-da`](https://github.com/iojs/iojs-da) Данська Група
     * [`iojs-de`](https://github.com/iojs/iojs-de) Німецька Група
     * [`iojs-el`](https://github.com/iojs/iojs-el) Грецька Група
     * [`iojs-es`](https://github.com/iojs/iojs-es) Іспанська Група
-    * [`iojs-fa`](https://github.com/iojs/iojs-fa) Перська Група 
+    * [`iojs-fa`](https://github.com/iojs/iojs-fa) Перська Група
     * [`iojs-fi`](https://github.com/iojs/iojs-fi) Фінська Група
     * [`iojs-fr`](https://github.com/iojs/iojs-fr) Французька Група
     * [`iojs-he`](https://github.com/iojs/iojs-he) Івритська Група
-    * [`iojs-hi`](https://github.com/iojs/iojs-hi) Хінді Група 
-    * [`iojs-hu`](https://github.com/iojs/iojs-hu) Угорськf Група
+    * [`iojs-hi`](https://github.com/iojs/iojs-hi) Хінді Група
+    * [`iojs-hu`](https://github.com/iojs/iojs-hu) Угорська Група
     * [`iojs-id`](https://github.com/iojs/iojs-id) Індонезійська Група
-    * [`iojs-it`](https://github.com/iojs/iojs-it) Італійськf Група
+    * [`iojs-it`](https://github.com/iojs/iojs-it) Італійська Група
     * [`iojs-ja`](https://github.com/iojs/iojs-ja) Японська Група
     * [`iojs-ka`](https://github.com/iojs/iojs-ka) Грузинська Група
     * [`iojs-kr`](https://github.com/iojs/iojs-kr) Корейська Група
@@ -35,7 +37,7 @@ io.js - глобальна платформа, отже вона має декі
     * [`iojs-tr`](https://github.com/iojs/iojs-tr) Турецька Група
     * [`iojs-tw`](https://github.com/iojs/iojs-tw) Тайванська Група
     * [`iojs-uk`](https://github.com/iojs/iojs-uk) Українська Група
-    
+
 ## Для групп локалізації
 
 * Переконайтеся, що всі переклади на сайті зроблені як pull-запити в цей репозиторій. Це дозволить забезпечити незмінний процес збірки для всіх перекладів сайту.

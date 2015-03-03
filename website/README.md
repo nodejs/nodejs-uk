@@ -1,5 +1,7 @@
 # [iojs.org](https://iojs.org/)
 
+Цей каталог зберігає файли, необхідні для [@iojs/website](https://github.com/iojs/website).
+
 Оригінальний репозиторій знаходиться [тут](https://github.com/iojs/website). В цьому файлі ми лише переводимо їх власний README.
 
 ## Структура проекту

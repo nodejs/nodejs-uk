@@ -1,0 +1,165 @@
+{
+    "title": "Node.js",
+    "author": "Node.js Foundation",
+    "url": "https://nodejs.org/en/",
+    "locale": "en",
+    "scrollToTop": "Scroll to top",
+    "reportNodeIssue": "Report Node.js issue",
+    "reportWebsiteIssue": "Report website issue",
+    "getHelpIssue": "Get Help",
+    "by": "by",
+    "all-downloads": "All download options",
+    "nightly": "Nightly builds",
+    "feeds": [
+        {
+            "link": "feed/blog.xml",
+            "text": "Node.js Blog"
+        },
+        {
+            "link": "feed/releases.xml",
+            "text": "Node.js Blog: Releases"
+        },
+        {
+            "link": "feed/vulnerability.xml",
+            "text": "Node.js Blog: Vulnerability Reports"
+        },
+        {
+            "link": "feed/tsc-minutes.xml",
+            "text": "Node.js TSC meeting minutes"
+        }
+    ],
+    "home": { "text": "Home" },
+    "about": {
+        "link": "about",
+        "text": "About",
+        "governance": {
+            "link": "about/governance",
+            "text": "Governance"
+        },
+        "workinggroups": {
+            "link": "about/working-groups",
+            "text": "Working Groups"
+        },
+        "releases": {
+            "link": "about/releases",
+            "text": "Releases"
+        },
+        "resources": {
+            "link": "about/resources",
+            "text": "Resources"
+        },
+        "foundation": {
+            "link": "foundation",
+            "text": "Foundation"
+        },
+        "security": {
+            "link": "security",
+            "text": "Security"
+        },
+        "trademark": {
+            "link": "about/trademark",
+            "text": "Trademark"
+        }
+    },
+    "download": {
+        "link": "download",
+        "text": "Downloads",
+        "releases": {
+            "link": "download/releases",
+            "text": "Previous Releases"
+        },
+        "package-manager": {
+            "link": "download/package-manager",
+            "text": "Installing Node.js via package manager"
+        }
+    },
+    "docs": {
+        "link": "docs",
+        "text": "Docs",
+        "es6": {
+            "link": "docs/es6",
+            "text": "ES6 and beyond"
+        },
+        "faq": {
+            "link": "docs/faq",
+            "text": "FAQ"
+        },
+        "api-lts": {
+            "link": "/dist/latest-v4.x/docs/api",
+            "subtext": "LTS",
+            "text": "%ver% API"
+        },
+        "api-current": {
+            "link": "/dist/latest-v6.x/docs/api",
+            "text": "%ver% API"
+        },
+        "guides": {
+            "link": "docs/guides",
+            "text": "Guides"
+        }
+    },
+    "foundation": {
+        "link": "foundation",
+        "text": "Foundation",
+        "casestudies": {
+            "link": "foundation/case-studies",
+            "text": "Resources"
+        },
+        "members": {
+            "link": "foundation/members",
+            "text": "Members"
+        },
+        "board": {
+            "link": "foundation/board",
+            "text": "Board"
+        },
+        "tsc": {
+            "link": "foundation/tsc",
+            "text": "Technical Governance"
+        },
+        "itn": {
+             "link": "foundation/in-the-news",
+             "text": "In the News"
+        },
+        "announce": {
+            "link": "foundation/announcements",
+            "text": "Announcements"
+        }
+    },
+    "getinvolved": {
+        "link": "get-involved",
+        "text": "Get Involved",
+        "code-and-learn": {
+            "link": "get-involved/code-and-learn",
+            "text": "Code + Learn"
+        },
+        "contribute": {
+            "link": "get-involved/contribute",
+            "text": "Contribute"
+        },
+        "development": {
+            "link": "get-involved/development",
+            "text": "Development"
+        },
+        "events": {
+          "link": "get-involved/events",
+          "text": "Events"
+        },
+        "conduct": {
+            "link": "https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct",
+            "text": "Conduct"
+        }
+    },
+    "security"   : { "link": "security",        "text": "Security" },
+    "blog"       : { "link": "blog",            "text": "News" },
+
+    "releases": {
+        "title": "Release History",
+        "downloads": "Downloads"
+    },
+    "links": {
+        "pages": {
+            "changelog": "Changelog"
+        }
+    }
+}

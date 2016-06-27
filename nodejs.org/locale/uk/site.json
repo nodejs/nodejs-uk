@@ -1,84 +1,84 @@
 {
     "title": "Node.js",
     "author": "Node.js Foundation",
-    "url": "https://nodejs.org/en/",
-    "locale": "en",
-    "scrollToTop": "Scroll to top",
-    "reportNodeIssue": "Report Node.js issue",
-    "reportWebsiteIssue": "Report website issue",
-    "getHelpIssue": "Get Help",
-    "by": "by",
-    "all-downloads": "All download options",
-    "nightly": "Nightly builds",
+    "url": "https://nodejs.org/uk/",
+    "locale": "uk",
+    "scrollToTop": "Вгору",
+    "reportNodeIssue": "Проблеми з Node.js",
+    "reportWebsiteIssue": "Проблеми з сайтом",
+    "getHelpIssue": "Допомога",
+    "by": "від",
+    "all-downloads": "Всі варіанти завантажень",
+    "nightly": "Нічні збірки",
     "feeds": [
         {
             "link": "feed/blog.xml",
-            "text": "Node.js Blog"
+            "text": "Блог Node.js"
         },
         {
             "link": "feed/releases.xml",
-            "text": "Node.js Blog: Releases"
+            "text": "Блог Node.js: Релізи"
         },
         {
             "link": "feed/vulnerability.xml",
-            "text": "Node.js Blog: Vulnerability Reports"
+            "text": "Node.js Blog: Звіти про вразливості"
         },
         {
             "link": "feed/tsc-minutes.xml",
-            "text": "Node.js TSC meeting minutes"
+            "text": "Протоколи засідання Node.js TSC"
         }
     ],
-    "home": { "text": "Home" },
+    "home": { "text": "Головна" },
     "about": {
         "link": "about",
-        "text": "About",
+        "text": "Про проект",
         "governance": {
             "link": "about/governance",
-            "text": "Governance"
+            "text": "Управління"
         },
         "workinggroups": {
             "link": "about/working-groups",
-            "text": "Working Groups"
+            "text": "Робочі групи"
         },
         "releases": {
             "link": "about/releases",
-            "text": "Releases"
+            "text": "Релізи"
         },
         "resources": {
             "link": "about/resources",
-            "text": "Resources"
+            "text": "Ресурси"
         },
         "foundation": {
             "link": "foundation",
-            "text": "Foundation"
+            "text": "Фундація"
         },
         "security": {
             "link": "security",
-            "text": "Security"
+            "text": "Безпека"
         },
         "trademark": {
             "link": "about/trademark",
-            "text": "Trademark"
+            "text": "Товарний знак"
         }
     },
     "download": {
         "link": "download",
-        "text": "Downloads",
+        "text": "Завантаження",
         "releases": {
             "link": "download/releases",
-            "text": "Previous Releases"
+            "text": "Попередні Релізи"
         },
         "package-manager": {
             "link": "download/package-manager",
-            "text": "Installing Node.js via package manager"
+            "text": "Встановлення Node.js через пакетний менеджер"
         }
     },
     "docs": {
         "link": "docs",
-        "text": "Docs",
+        "text": "Документація",
         "es6": {
             "link": "docs/es6",
-            "text": "ES6 and beyond"
+            "text": "ES6 і вище"
         },
         "faq": {
             "link": "docs/faq",
@@ -95,71 +95,71 @@
         },
         "guides": {
             "link": "docs/guides",
-            "text": "Guides"
+            "text": "Керівництва"
         }
     },
     "foundation": {
         "link": "foundation",
-        "text": "Foundation",
+        "text": "Фундація",
         "casestudies": {
             "link": "foundation/case-studies",
-            "text": "Resources"
+            "text": "Ресурси"
         },
         "members": {
             "link": "foundation/members",
-            "text": "Members"
+            "text": "Учасники"
         },
         "board": {
             "link": "foundation/board",
-            "text": "Board"
+            "text": "Рада директорів"
         },
         "tsc": {
             "link": "foundation/tsc",
-            "text": "Technical Governance"
+            "text": "Технічне керівництво"
         },
         "itn": {
              "link": "foundation/in-the-news",
-             "text": "In the News"
+             "text": "У новинах"
         },
         "announce": {
             "link": "foundation/announcements",
-            "text": "Announcements"
+            "text": "Анонси"
         }
     },
     "getinvolved": {
         "link": "get-involved",
-        "text": "Get Involved",
+        "text": "Приєднатись",
         "code-and-learn": {
             "link": "get-involved/code-and-learn",
             "text": "Code + Learn"
         },
         "contribute": {
             "link": "get-involved/contribute",
-            "text": "Contribute"
+            "text": "Сприяння"
         },
         "development": {
             "link": "get-involved/development",
-            "text": "Development"
+            "text": "Розробка"
         },
         "events": {
           "link": "get-involved/events",
-          "text": "Events"
+          "text": "Події"
         },
         "conduct": {
             "link": "https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct",
-            "text": "Conduct"
+            "text": "Правила"
         }
     },
-    "security"   : { "link": "security",        "text": "Security" },
-    "blog"       : { "link": "blog",            "text": "News" },
+    "security"   : { "link": "security",        "text": "Безпека" },
+    "blog"       : { "link": "blog",            "text": "Новини" },
 
     "releases": {
-        "title": "Release History",
-        "downloads": "Downloads"
+        "title": "Історія релізів",
+        "downloads": "Завантаження"
     },
     "links": {
         "pages": {
-            "changelog": "Changelog"
+            "changelog": "Історія змін"
         }
     }
 }

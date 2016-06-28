@@ -1,23 +1,21 @@
 ---
 layout: index.hbs
 labels:
-  current-version: Current Version
-  download: Download
-  download-for: Download for
-  other-downloads: Other Downloads
-  other-lts-downloads: Other LTS Downloads
-  other-current-downloads: Other Current Downloads
-  current: Current
+  current-version: Поточна версія
+  download: Завантажити
+  download-for: Завантажити для
+  other-downloads: Інші завантаження
+  other-lts-downloads: Інші LTS завантаження
+  other-current-downloads: Інші поточні завантаження
+  current: Поточна
   lts: LTS
-  tagline-current: Latest Features
-  tagline-lts: Recommended For Most Users
-  changelog: Changelog
-  api: API Docs
-  version-schedule-prompt: Or have a look at the
-  version-schedule-prompt-link-text: LTS schedule
+  tagline-current: Найновіші можливості
+  tagline-lts: Рекомандовано для більшості
+  changelog: Список змін
+  api: API
+  version-schedule-prompt: Або подивіться на
+  version-schedule-prompt-link-text: графік LTS
 ---
 
-Node.js® is a JavaScript runtime built on [Chrome's V8 JavaScript engine](https://developers.google.com/v8/).
-Node.js uses an event-driven, non-blocking I/O model that makes it
-lightweight and efficient. Node.js' package ecosystem, [npm](https://www.npmjs.com/), is the largest ecosystem of open
-source libraries in the world.
+Node.js® — це JavaScript–оточення побудоване на JavaScript–рушієві [Chrome's V8](https://developers.google.com/v8/).
+Node.js використовує подієву, неблокуючу I/O модель, що робить його легким та ефективним. Пакетна екосистема Node.js, [npm](https://www.npmjs.com/), є найбільшою у світі екосистемою бібліотек з відкритим кодом.

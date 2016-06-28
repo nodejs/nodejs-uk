@@ -1,61 +1,48 @@
 ---
 layout: security.hbs
-title: Security
+title: Безпека
 ---
-# Security
+# Безпека
 
-## Reporting a Bug
+## Повідомлення про помилки
 
-All security bugs in Node.js are taken seriously and should be reported by emailing [security@nodejs.org](mailto:security@nodejs.org).
-This will be delivered to a subset of the core team who handle security issues.
+Всі помилки, що стосуються безпеки в Node.js, серйозно беруться до уваги і повинні бути надіслані на [security@nodejs.org](mailto:security@nodejs.org).
+Вони будуть передані відповідній підгрупі, яка займається питаннями безпеки.
 
-Your email will be acknowledged within 24 hours, and you’ll receive a more detailed response to your email within 48
-hours indicating the next steps in handling your report.
+Ваш лист буде розглянуто на протязі 24 годин, а протягом 48–и годин вам буде надіслано більш деталізовану відповідь з вказівками щодо подальшої обробки вашого запиту.
 
-After the initial reply to your report, the security team will endeavor to keep you informed of the progress being made
-towards a fix and full announcement, and may ask for additional information or guidance surrounding the reported issue.
-These updates will be sent at least every five days, in practice, this is more likely to be every 24-48 hours.
+Після початкової відповіді на ваше повідомлення, команда безпеки буде тримати вас в курсі стосовно прогресу у вирішенні проблеми та може запитати вас додаткову інформацію, або інструкції стосовно повідомленої помилки.
+Ці оновлення будуть надсилатись принаймні раз в п’ять днів, на практиці, скоріш за все, кожні 24-48 годин.
 
-Security bugs in third party modules should be reported to their respective maintainers and can also be coordinated
-through the [Node Security Project](https://nodesecurity.io).
+Проблеми з безпекою в модулях сторонніх розробників повинні повідомлятись їхнім мейнтейнерам, а також можуть бути зкоординованими через [Node Security Project](https://nodesecurity.io).
 
-Thank you for improving the security of Node.js. Your efforts and responsible disclosure are greatly appreciated and
-will be acknowledged.
+Дякуємо вам за покращення безпеки в Node.js. Ваші зусилля та відповідальність високо цінуються та будуть визнаними.
 
 
-## Disclosure Policy
+## Розкриття політики
 
-Here is the security disclosure policy for Node.js
+Ось політика розкриття безпеки для Node.js
 
-- The security report is received and is assigned a primary handler. This person will coordinate the fix and release
-process. The problem is confirmed and a list of all affected versions is determined. Code is audited to find any
-potential similar problems. Fixes are prepared for all releases which are still under maintenance. These fixes are not
-committed to the public repository but rather held locally pending the announcement.
+- Звіт про безпеку приймається і призначається основному обробнику. Ця людина координуватиме процес виправлення та релізу. Проблема підтверджується і визначається список всіх версій, що містять її. Код перевіряється для знаходження потенційних подібних проблем. Випралення готуються для всіх релізів, що досі підтримуються. Ці виправлення не приймаються в публічний репозиторій, зберігаються локально в очікуванні анонсу.
 
-- A suggested embargo date for this vulnerability is chosen and a CVE (Common Vulnerabilities and  Exposures (CVE®))
-is requested for the vulnerability.
+- Обирається дата закриття цієї вразливості і стосовно неї запитується CVE (Common Vulnerabilities and Exposures (CVE®)).
 
-- On the embargo date, the Node.js security mailing list is sent a copy of the announcement. The changes are pushed to
-the public repository and new builds are deployed to nodejs.org. Within 6 hours of the mailing list being notified, a
-copy of the advisory will be published on the Node.js blog.
+- У день закриття, поштова розсилка стосовно безпеки Node.js розсилає копії анонсу. Зміни передаються у публічний репозиторій і нові збірки розгортаються на nodejs.org. Протягом 6 годин після розсилки повідомлень, копію оголошення буде опубліковано у блозі Node.js.
 
-- Typically the embargo date will be set 72 hours from the time the CVE is issued. However, this may vary depending on
-the severity of the bug or difficulty in applying a fix.
+- Зазвичай дата закриття встановлюється протягом  72 годин з повідомлення CVE. Однак, це може залежати від серйозності помилки та складнощів стосовно її вирішення.
 
-- This process can take some time, especially when coordination is required with maintainers of other projects. Every
-effort will be made to handle the bug in as timely a manner as possible, however, it’s important that we follow the
-release process above to ensure that the disclosure is handled in a consistent manner.
+- Цей процес може зайняти деякий час, особливо коли необхідна координація з мейнтейнерами інших проектів. Всі зусилля будуть спрямовані на те, щоб вирішити проблему настільки швидко, наскільки це можливо, однак, важливо, щоб ми дотримувались процесу релізу, щоб бути певними, що все відбувається належним чином.
 
 
-## Receiving Security Updates
+## Отримання оновлень
 
-Security notifications will be distributed via the following methods.
+Сповіщення, що стосуються безпеки, будуть поширюватись з допомогою:
 
 - [https://groups.google.com/group/nodejs-sec](https://groups.google.com/group/nodejs-sec)
 - [https://nodejs.org/en/blog](https://nodejs.org/en/blog)
 
 
-## Comments on this Policy
+## Коментарі стосовно цієї політики
 
-If you have suggestions on how this process could be improved please submit a [pull request](https://github.com/nodejs/nodejs.org)
-or email [security@nodejs.org](mailto:security@nodejs.org) to discuss.
+Якщо ви маєте поради щодо вдосконалення цього процесу, будь–ласка, надішліть [pull request](https://github.com/nodejs/nodejs.org),
+або напишіть лист на  [security@nodejs.org](mailto:security@nodejs.org).

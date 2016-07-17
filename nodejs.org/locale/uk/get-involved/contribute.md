@@ -1,33 +1,33 @@
 ---
-title: Contributing
+title: Співпраця
 layout: contribute.hbs
 ---
 
-# Contributing
+# Співпраця
 
-Thank you for your interest in contributing to Node.js, there are multiple ways and places you can contribute and we're here to help facilitate that.
+Дякуємо, що зацікавлені у співпраці з Node.js. Існує багато способів та місць де ви можете співпрацювати і ми тут, що допомогти вам з цим.
 
-## Reporting an Issue
+## Повідомлення про проблему
 
-If you have found what you believe to be an issue with Node.js please do not hesitate to file an issue on the GitHub project. When filing your issue please make sure you can express the issue with a reproducible test case, and that test case should not include any external dependencies. That is to say, the test case can be executed without anything more than Node.js itself.
+Якщо ви знайшли щось, що на вашу думку може бути помилкою у Node.js, будь–ласка не соромтесь відкрити іш’ю на сторінці проекту на GitHub. При заповненні вашого іш’ю, будь–ласка, впевніться, що ви можете підкріпити вашу іш’ю відповідними тестами і цей тест не містить жодних додаткових залежностей. Тобто цей тест можна виконати лише з самим Node.js.
 
-When reporting an issue we also need as much information about your environment that you can include. We never know what information will be pertinent when trying narrow down the issue. Please include at least the following information:
+При повідомленні про помилку ми також потребуємо якомога більше інформації про ваше середовище. Ми ніколи не знаємо яка інформація може стати корисною при вирішенні певної проблеми. Ваше іш’ю має містити принаймні таку інформацію:
 
-* Version of Node
-* Platform you're running on (OS X, SunOS, Linux, Windows)
-* Architecture you're running on (32bit or 64bit and x86 or ARM)
+* Версія Node
+* Платформа на якій ви працюєте (macOS, SunOS, Linux, Windows)
+* Архітектура на які ви працюєте (32bit або 64bit та x86 або ARM)
 
-The Node.js project is currently managed across a number of separate GitHub repositories, each with their own separate issues database. If possible, please direct any issues you are reporting to the appropriate repository but don't worry if things happen to get put in the wrong place, the community of contributors will be more than happy to help get you pointed in the right direction.
+На разі, проект Node.js керується між кількома різними GitHub–репозиторіями, кожен зі своєю власною базою іш’ю. Якщо можливо, просимо надсилати іш’ю безпосередньо у потрібний репозиторій, проте не хвилюйтесь якщо ви надішлете її у неправильне місце, спільнота учасників радо спрямує вас у правильному напрямку.
 
-* To report issues specific to Node.js, please use [nodejs/node](https://github.com/nodejs/node)
-* To report issues specific to this website, please use [nodejs/nodejs.org](https://github.com/nodejs/nodejs.org/issues)
+* Щоб повідомити про проблему, що стосується Node.js, будь–ласка скористайтесь [nodejs/node](https://github.com/nodejs/node)
+* Щоб повідомити про проблему, що стосується цього сайту, будь–ласка скористайтесь [nodejs/nodejs.org](https://github.com/nodejs/nodejs.org/issues)
 
-## Code contributions
+## Участь у розробці
 
-If you'd like to fix bugs or add a new feature to Node.js, please make sure you consult the [Node.js Development Policy](/en/get-involved/development/).
+Якщо ви хочете виправити помилку, або додати у Node.js новий функціонал, будь–ласка переконайтесь, що ви знайомі з [політикою розробки Node.js (Node.js Development Policy)](/en/get-involved/development/).
 
-Before any contribution can be accepted and be part of the project, it needs to be reviewed by existing collaborators in accordance to the guidelines established by the [Node.js Development Policy](/en/get-involved/development/).
+Кожна зміна, перед тим як стати частиною проекту має бути переглянута учасниками, відповідно до керівництва встановлених у [політиці розробки Node.js (Node.js Development Policy)](/en/get-involved/development/).
 
-## Becoming a collaborator
+## Стати співавтором
 
-By becoming a collaborator, contributors can have even more impact on the project. They can help other contributors by reviewing their contributions, triage issues and take an even bigger part in shaping the project's future. The Node.js project is always looking for people who are interested in becoming collaborators. If you're interested, make sure you familiarize yourself with the [Node.js Development Policy](/en/get-involved/development/).
+Ставши співавтором учасник має більший вплив на проект. Вони можуть допомагати іншим учасникам з переглядом їхніх змін, сортуванням іш’ю та впливати на майбутнє проекту більшою мірою. Проект Node.js завжди шукає людей, що зацікавлені в тому, щоб стати співавторами. Якщо ви зацікавлені, переконайтесь, що ви знайомі з  [політикою розробки Node.js (Node.js Development Policy)](/en/get-involved/development/).

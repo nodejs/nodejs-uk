@@ -1,8 +1,8 @@
 ---
-title: Events
+title: Події
 layout: events.hbs
 regions:
-  - region: Africa
+  - region: Африка
     meetups:
       - country: ZA
         city: Cape Town
@@ -188,7 +188,7 @@ regions:
         repo: 'http://github.com/nodeschool/mombasa'
         lat: -4.0434771
         lon: 39.6682065
-  - region: Asia
+  - region: Азія
     conferences:
       - name: NodeFest (東京Node学園祭)
         desc: NodeFest is a yearly conference in Tokyo organized by the Node.js Japan user group.
@@ -1971,7 +1971,7 @@ regions:
         repo: 'http://github.com/nodeschool/yazd'
         lat: 31.8974232
         lon: 54.3568562
-  - region: Europe
+  - region: Європа
     conferences:
       - name: NodeConf.eu
         desc: 'Yearly NodeConf in Waterford, Ireland.'
@@ -5741,7 +5741,7 @@ regions:
         repo: 'http://github.com/nodeschool/zagreb'
         lat: 45.8150108
         lon: 15.981919
-  - region: Latin America
+  - region: Південна Америка
     conferences:
       - name: NodeConf Argentina
         desc: 'NodeConf Argentina is among the first international Node.js conferences taking place in Latin American territory.'
@@ -7106,7 +7106,7 @@ regions:
         repo: 'https://github.com/nodeschool/usac.gt'
         lat: 14.5881064
         lon: -90.5477204
-  - region: North America
+  - region: Північна Америка
     conferences:
       - name: Node.js Interactive
         dates:
@@ -12219,7 +12219,7 @@ regions:
         repo: 'http://github.com/nodeschool/washingtondc'
         lat: 38.9071923
         lon: -77.0368707
-  - region: South Pacific
+  - region: Океанія
     meetups:
       - country: NZ
         city: Auckland

@@ -1,102 +1,94 @@
 ---
-title: Dependencies
+title: Залежності
 layout: docs.hbs
 ---
 
-# Dependencies
+# Залежності
 
-There are several dependencies that Node.js relies on to work the way it does.
+Node.js використовує кілька залежностей, на які використовуються для забезпечення його роботи.
 
-- [Libraries](#Libraries)
+- [Бібліотеки](#Бібліотеки)
   - [V8](#V8)
   - [libuv](#libuv)
   - [http-parser](#http-parser)
   - [c-ares](#c-ares)
   - [OpenSSL](#OpenSSL)
   - [zlib](#zlib)
-- [Tools](#Tools)
+- [Інструменти](#Інструменти)
   - [npm](#npm)
   - [gyp](#gyp)
   - [gtest](#gtest)
 
-## Libraries
+## Бібліотеки
 
 ### V8
 
-The V8 library provides Node.js with a JavaScript engine, which Node.js
-controls via the V8 C++ API. V8 is maintained by Google, for use in Chrome.
+Бібліотека V8 надає Node.js JavaScript–рушій, котрий Node.js керується через V8 C++ API. V8 підтримується Google для використання у Chrome.
 
-- [Documentation](https://v8docs.nodesource.com/)
+- [Документація](https://v8docs.nodesource.com/)
 
 ### libuv
 
-Another important dependency is libuv, a C library that is used to abstract
-non-blocking I/O operations to a consistent interface across all supported
-platforms. It provides mechanisms to handle file system, DNS, network, child
-processes, pipes, signal handling, polling and streaming. It also includes a
-thread pool for offloading work for some things that can't be done
-asynchronously at the operating system level.
+Іншою важливою залежністю є libuv, C–бібліотека, що використовується для
+абстрагування неблокуючих I/O–операцій у консистентний інтерфейс
+для всіх платформ, що підтримуються. Вона надає механізм для маніпуляцій
+файловою системою, DNS, мережею, дочірними процесами, пайпами,
+сигналами, запитами та потоками. Вона також включає тред для розвантаження
+роботи, що може бути виконана асинхронно на рівні операційної системи.
 
-- [Documentation](http://docs.libuv.org/)
+- [Документація](http://docs.libuv.org/)
 
 ### http-parser
 
-HTTP parsing is handled by a lightweight C library called http-parser. It is
-designed to not make any syscalls or allocations, so it has a very small
-per-request memory footprint.
+Парсинг HTTP відбувається з допомогою легкої С–бібліотеки C,
+яка називається http-parser. Вона спроектована так, щоб не робити жодних
+системних викликів або алокацій, тому вона використовує дуже мало пам’яті
+для обробки кожного запиту.
 
-- [Documentation](https://github.com/joyent/http-parser/)
+- [Документація](https://github.com/joyent/http-parser/)
 
 ### c-ares
 
-For some asynchronous DNS requests, Node.js uses a C library called c-ares.
-It is exposed through the DNS module in JavaScript as the resolve() family of
-functions. The lookup() function, which is what the rest of core uses, makes
-use of threaded getaddrinfo(3) calls in libuv. The reason for this is that
-c-ares supports /etc/hosts, /etc/resolv.conf and /etc/svc.conf, but not things
-like mDNS.
+Для деяких асинхронних DNS–запитів Node.js використовує C–бібліотеку
+під назвою c-ares. Вона використовується через DNS–модуль у JavaScript
+в якості сім’ї функцій resolve(). Функція lookup(),
+яку використовує решту ядра, використовується для getaddrinfo(3)
+викликів у libuv. Причиною цього є в тому, що c-ares підтримує /etc/hosts,
+/etc/resolv.conf та /etc/svc.conf, проте не речі, на зразок mDNS.
 
-- [Documentation](http://c-ares.haxx.se/docs.html)
+- [Документація](http://c-ares.haxx.se/docs.html)
 
 ### OpenSSL
 
-OpenSSL is used extensively in both the `tls` and `crypto` modules. It provides
-battle-tested implementations of many cryptographic functions that the modern
-web relies on for security.
+OpenSSL широко використовується у модулях `tls` та `crypto`. Вона надає добре відтестовані імплементації багатьох криптографічних функцій, які використовуються у сучасному вебі для безпеки.
 
-- [Documentation](https://www.openssl.org/docs/)
+- [Документація](https://www.openssl.org/docs/)
 
 ### zlib
 
-For fast compression and decompression, Node.js relies on the industry-standard
-zlib library, also known for its use in gzip and libpng. Node.js uses zlib to
-create sync, async and streaming compression and decompression interfaces.
+Для компресії та декомпресії Node.js використовує де–факто стандартну в
+індустрії бібліотеку zlib, яка також використовується у gzip та libpng.
+Node.js використовує zlib для створення синхронних, асинхронних
+та потокових інтерфейсів компресії та декомпресії
 
-- [Documentation](http://www.zlib.net/manual.html)
+- [Документація](http://www.zlib.net/manual.html)
 
-## Tools
+## Інструменти
 
 ### npm
 
-Node.js is all about modularity, and with that comes the need for a quality
-package manager; for this purpose, npm was made. With npm comes the largest
-selection of community-created packages of any programming ecosystem,
-which makes building Node.js apps quick and easy.
+Node.js є модульним, а це вимагає наявності якісного пакетного менеджера і саме для цієї потреби був розроблений npm. Разом з npm надходить велика кількість пакетів для будь–якої програмної екосистеми, що робить побудову додатків на  Node.js швидким та легким процесом.
 
-- [Documentation](https://docs.npmjs.com/)
+- [Документація](https://docs.npmjs.com/)
 
 ### gyp
 
-The build system is handled by gyp, a python-based project generator copied
-from V8. It can generate project files for use with build systems across many
-platforms. Node.js requires a build system because large parts of it — and its
-dependencies — are written in languages that require compilation.
+Система збірки керується через gyp — генератор проектів взятий з V8, що написаний на Python. Вона може генерувати файли для проектів для використання у системах збірки на багатьох системах. Node.js потребує системи збірки, оскільки велика кількість його частин, його залежності, написані на мовах, що потребують компіляції.
 
-- [Documentation](https://chromium.googlesource.com/external/gyp/+/master/docs/UserDocumentation.md)
+- [Документація](https://chromium.googlesource.com/external/gyp/+/master/docs/UserDocumentation.md)
 
 ### gtest
 
-Native code can be tested using gtest, which is taken from Chromium. It allows
-testing C/C++ without needing an existing node executable to bootstrap from.
+Нативний код можна тестувати через gtest, який взятий з Chromium. Він дозволяє тестувати C/C++ без потреби у існуючій збірці node.
 
-- [Documentation](https://code.google.com/p/googletest/wiki/V1_7_Documentation)
+- [Документація](https://code.google.com/p/googletest/wiki/V1_7_Documentation)

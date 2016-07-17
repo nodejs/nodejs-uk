@@ -1,5 +1,5 @@
 ---
-title: Guides
+title: Керівництва
 layout: guides-index.hbs
 ---
 

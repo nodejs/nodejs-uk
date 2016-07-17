@@ -1,139 +1,121 @@
 ---
-title: Project Governance
+title: Управління проектом
 layout: about.hbs
 ---
-# Project Governance
+# Управління проектом
 
-## Technical Steering Committee
+## Технічний керівний комітет
 
-The project is jointly governed by a Technical Steering Committee (TSC)
-which is responsible for high-level guidance of the project.
+Цей проект спільно керується Технічним керівним комітетом
+(Technical Steering Committee (TSC)), що є відповідальним
+за найвище керівництво проекто.
 
-The TSC has final authority over this project including:
+TSC має остаточне авторство над цим проектом, включаючи:
 
-* Technical direction
-* Project governance and process (including this policy)
-* Contribution policy
-* GitHub repository hosting
-* Conduct guidelines
-* Maintaining the list of additional Collaborators
+* Технічне спрямування
+* Управління проектом та процесом (включаючи цю політику)
+* Політику співпраці
+* Хостинг GitHub–репозиторіїв
+* Керівництва з поведінки
+* Підтримка списку додаткових співаторів
 
-Initial membership invitations to the TSC were given to individuals who
-had been active contributors, and who have significant
-experience with the management of the project. Membership is
-expected to evolve over time according to the needs of the project.
+Початкові запрошення на участі у TSC були дані тим особам, які
+були активними учасникам та які мали значний досвід в управлінні проектом.
+Членство передбачає повну зайнятість, у відповідності до потреб проекту.
 
-For the current list of TSC members, see the project
-[README.md](https://github.com/nodejs/node/blob/master/README.md#tsc-technical-steering-committee).
+Поточний список учасників TSC можна знайти в
+[README.md](https://github.com/nodejs/node/blob/master/README.md#tsc-technical-steering-committee) проекту.
 
-## Collaborators
+## Співавтори
 
-The [nodejs/node](https://github.com/nodejs/node) GitHub repository is
-maintained by the TSC and additional Collaborators who are added by the
-TSC on an ongoing basis.
+GitHub–репозиторій [nodejs/node](https://github.com/nodejs/node)
+підтримується TSC та додатковими співавторами, що були додані
+TSC на постійній основі.
 
-Individuals making significant and valuable contributions are made
-Collaborators and given commit-access to the project. These
-individuals are identified by the TSC and their addition as
-Collaborators is discussed during the weekly TSC meeting.
+Особи, що роблять значні та важливі внески стають співавторами
+та отримують доступ на запис (commit-access) у проект. Ці особи
+ідентифікуються через TSC і їх залучення як співавторів
+обговорюється протягом щотижневих зустрічей TSC.
 
-_Note:_ If you make a significant contribution and are not considered
-for commit-access, log an issue or contact a TSC member directly and it
-will be brought up in the next TSC meeting.
+_Зауважте:_ Якщо ви зробили значні внески і надання вам доступу на запис
+не було розглянуто, відкрийте issue, або зв’яжіться безпосередньо з членом TSC
+і це буде розглянуто на наступній зустрічі TSC.
 
-Modifications of the contents of the nodejs/node repository are made on
-a collaborative basis. Anybody with a GitHub account may propose a
-modification via pull request and it will be considered by the project
-Collaborators. All pull requests must be reviewed and accepted by a
-Collaborator with sufficient expertise who is able to take full
-responsibility for the change. In the case of pull requests proposed
-by an existing Collaborator, an additional Collaborator is required
-for sign-off. Consensus should be sought if additional Collaborators
-participate and there is disagreement around a particular
-modification. See _Consensus Seeking Process_ below for further detail
-on the consensus model used for governance.
+Модифікації контенту в репозиторії nodejs/node відбуваються на
+співавторській основі. Будь–хто з GitHub–аккаунтом може запропонувати
+зміни через пулл–реквест, який буде розглянуто співавторами проекту.
+Всі пулл–реквести повинні пройти ревізію та приймаються співавторами з
+достатнім досвідом, які можуть взявти повну відповідальність за ці зміни.
+У випадку, якщо пулл–реквест пропонується існуючи співавтором, вимагається
+первірка іншого співавтора. Слід шукати консенсус, якщо інший співавтор
+брав участь і виникли розбіжності стосовно конкретної зміни. Дивісться
+_Процес пошуку консенсусу_ нижче для додаткоих деталей стосовно
+консенсусної моделі, що використовується в управлінні.
 
-Collaborators may opt to elevate significant or controversial
-modifications, or modifications that have not found consensus to the
-TSC for discussion by assigning the ***tsc-agenda*** tag to a pull
-request or issue. The TSC should serve as the final arbiter where
-required.
+Співавтори можуть винести на обговорення на TSC значні, або суперечливі зміни,
+або модифікації, що не знайшли консенсусу шляхом присвоєння пулл–ревкесту,
+або issue тегу ***tsc-agenda***. TSC має підготувати остаточне рішення,
+при потребі.
 
-For the current list of Collaborators, see the project
-[README.md](https://github.com/nodejs/node/blob/master/README.md#current-project-team-members).
+Щоб побачити поточний список співавторів перегляньте
+[README.md](https://github.com/nodejs/node/blob/master/README.md#current-project-team-members) проекту.
 
-A guide for Collaborators is maintained in
+Керівництво для співавторів знаходиться у
 [COLLABORATOR_GUIDE.md](https://github.com/nodejs/node/blob/master/COLLABORATOR_GUIDE.md).
 
-## TSC Membership
+## Членство в TSC
 
-TSC seats are not time-limited.  There is no fixed size of the TSC.
-However, the expected target is between 6 and 12, to ensure adequate
-coverage of important areas of expertise, balanced with the ability to
-make decisions efficiently.
+Членство у TSC не обмежене у часі. TSC не має фіксованої кількості учасників.
+Однак, очікується, що він матиме від 6 до 12 учасників, для забезпечення
+адекватного покриття у важливих областях, збалансованого зі здатністю
+ефективно приймати рішення.
 
-There is no specific set of requirements or qualifications for TSC
-membership beyond these rules.
+Ці правила не визначають певних вимог чи бажаного рівня кваліфікації
+для членства у TSC.
 
-The TSC may add additional members to the TSC by a standard TSC motion.
+TSC може додавати додаткових членів у TSC за стандартною схемою TSC.
 
-A TSC member may be removed from the TSC by voluntary resignation, or by
-a standard TSC motion.
+Член TSC може бути виключеним з TSC через добровільну відставку,
+або за стандартною схемою TSC.
 
-Changes to TSC membership should be posted in the agenda, and may be
-suggested as any other agenda item (see "TSC Meetings" below).
+Зміни у членстві в TSC слід публікувати у порядку денному.
+Вони можуть висуватись як і будь–який інший пукт порядку денного
+(дивіться "Зустрічі TSC" нижче).
 
-No more than 1/3 of the TSC members may be affiliated with the same
-employer.  If removal or resignation of a TSC member, or a change of
-employment by a TSC member, creates a situation where more than 1/3 of
-the TSC membership shares an employer, then the situation must be
-immediately remedied by the resignation or removal of one or more TSC
-members affiliated with the over-represented employer(s).
+Не більш як 1/3 від всіх членів TSC можуть бути пов’язані одним роботодавцем.  
+Якщо виключення, реєстрація нового члена TSC, або зміна місця роботи поточного члена TSC, створює ситуацію за якої третина всіх учаників TSC мають спільного роботодавця, ця ситуація має негайно вирішитись шляхом реєстраці, або видалення одного, або більше учасників TSC, які пов'язані різними роботодавцями.
 
-## TSC Meetings
+## Зустрічі TSC
 
-The TSC meets weekly on a Google Hangout On Air. The meeting is run by
-a designated moderator approved by the TSC. Each meeting should be
-published to YouTube.
+TSC щотижня зустрічається вживу через Google Hangout.
+Зустріч відбувається під керівництвом модератора, прийнятого TSC.
+Кожна зустріч слід публікувати на YouTube.
 
-Items are added to the TSC agenda which are considered contentious or
-are modifications of governance, contribution policy, TSC membership,
-or release process.
+Елемени, які додаються до порядку денного TSC, які вважаються суперечливими:
+зміна управління, політики внесків, членство TSC, або процес прелізів.
 
-The intention of the agenda is not to approve or review all patches.
-That should happen continuously on GitHub and be handled by the larger
-group of Collaborators.
+Порядок денний не має ставить за мету прийняти, або розглянути всі питання.
+Це має родовжуватись на GitHub за участі великої кількості співавторів.
 
-Any community member or contributor can ask that something be added to
-the next meeting's agenda by logging a GitHub Issue. Any Collaborator,
-TSC member or the moderator can add the item to the agenda by adding
-the ***tsc-agenda*** tag to the issue.
+Будь–який член спільноти, або учасник може попросити додати щось до порядку денного наступної зустрічі через GitHub Issue. Будь–який співавтор,
+член TSC, або модератор може додати це питання до порядку денного додавши до відповідної issue тег ***tsc-agenda***.
 
-Prior to each TSC meeting, the moderator will share the Agenda with
-members of the TSC. TSC members can add any items they like to the
-agenda at the beginning of each meeting. The moderator and the TSC
-cannot veto or remove items.
+Перед кожною зустріччю TSC, модераторо поширює порядок денний між членами TSC.
+Члени TSC можуть додавати до порядку денного будь–які питання на початку
+кожної зустрічі. Модератор TSC не може накладати вето, або вилучати питання.
 
-The TSC may invite persons or representatives from certain projects to
-participate in a non-voting capacity. These invitees currently are:
+TSC може запрошувати до участі без права голосу осіб, що презентують певні проекти. Ці запрошення на разі:
 
-* A representative from [build](https://github.com/node-forward/build)
-  chosen by that project.
+* Представник [збірки](https://github.com/node-forward/build)
+  обраний цим проектом.
 
-The moderator is responsible for summarizing the discussion of each
-agenda item and sending it as a pull request after the meeting.
+Модератор відповідальний за підсумки дискусії стосовно кожного з пунктів порядку денного та надсилання їх у вигляді пулл–реквесту піля зустрічі.
 
-## Consensus Seeking Process
+## Процес пошуку консенсусу
 
-The TSC follows a
-[Consensus Seeking](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making)
-decision making model.
+TSC дотримується моделі, що приймає рішення, які базуються на
+[пошуку консенсусу](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making).
 
-When an agenda item has appeared to reach a consensus, the moderator
-will ask "Does anyone object?" as a final call for dissent from the
-consensus.
+Коли пункт порядку денного досягає консенсусу, модератор запитує: "Хто–небудь має заперечення?" — Це є останнім закликом до відходу від консенсусу.
 
-If an agenda item cannot reach a consensus, a TSC member can call for
-either a closing vote or a vote to table the issue to the next
-meeting. The call for a vote must be approved by a majority of the TSC
-or else the discussion will continue. Simple majority wins.
+Якщо пункт порядку денного не досягає консенсусу, член TSC може закликати до заключного голосування, або голосування щодо перенесення питання до наступної зустрічі. Заклик до голосування має бути затверджений більшістю у TSC, інакше дискусія має продовжуватись. Проста більшість виграє.

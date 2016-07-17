@@ -1,8 +1,8 @@
 ---
 layout: about.hbs
-title: Trademark Policy
+title: Політика торгової марки
 ---
-# Trademark Policy
+# Політика торгової марки
 
 The Node.js trademarks, service marks, and graphics marks are symbols of the
 quality, performance, and ease of use that people have come to associate with

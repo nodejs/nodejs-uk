@@ -1,14 +1,14 @@
 ---
 layout: about.hbs
-title: About
-trademark: Trademark
+title: Про проект
+trademark: Торгова марка
 ---
-# About Node.js&reg;
+# Про Node.js&reg;
 
-As an asynchronous event driven JavaScript runtime, Node is designed to build
-scalable network applications. In the following "hello world" example, many
-connections can be handled concurrently. Upon each connection the callback is
-fired, but if there is no work to be done Node is sleeping.
+Як асинхронне подієве JavaScript–оточення, Node спроектований для побудови
+масштабованих мережевих додатків. У нижче наведений приклад "hello world", який
+може одночасно обробляти багато з’єднань. Для кожного з’єднання викликається
+функція зворотнього виклику, проте коли з’єднань немає Node засинає.
 
 ```javascript
 const http = require('http');
@@ -27,39 +27,40 @@ server.listen(port, hostname, () => {
 });
 ```
 
-This is in contrast to today's more common concurrency model where OS threads
-are employed. Thread-based networking is relatively inefficient and very
-difficult to use. Furthermore, users of Node are free from worries of
-dead-locking the process, since there are no locks. Almost no function in Node
-directly performs I/O, so the process never blocks. Because nothing blocks,
-scalable systems are very reasonable to develop in Node.
+Це контрастує з більш загальною моделлю в якій використовуються паралельні OS
+потоки. Такий підхід є відносно неефективним та дежу важким у використанні.
+Більше того, користувачі Node можуть не турбуватись про блокування процесів,
+оскільки немає жодних блокувань. Майже жодна з функцій у Node
+не працює напряму з I/O, тому процес не блокується ніколи. Оскільки нічого
+не блокується на Node легко розробляти масштабовані системи.
 
-If some of this language is unfamiliar, there is a full article on
+Якщо щось у цьому підході є для вас незрозумілим, є повна стаття
 [Blocking vs Non-Blocking][].
 
 ---
 
-Node is similar in design to, and influenced by, systems like Ruby's
-[Event Machine][] or Python's [Twisted][]. Node takes the event model a bit
-further, it presents an [event loop][] as a runtime construct instead of as a library. In other systems there is always a blocking call to start the
-event-loop.
-Typically behavior is defined through callbacks at the beginning of a script
-and at the end starts a server through a blocking call like
-`EventMachine::run()`. In Node there is no such start-the-event-loop call. Node
-simply enters the event loop after executing the input script. Node exits the
-event loop when there are no more callbacks to perform. This behavior is like
-browser JavaScript — the event loop is hidden from the user.
+Node створений під впливом таких систем як [Event Machine][] в Ruby, або
+[Twisted][] в Python. Node використовує подієву модуль значно ширше,
+він приймає [цикл подій (event loop)][] за основу оточення, замість того,
+щоб використовувати його в якості бібліотеки. В інших системах завжди стається
+блокування виклику, щоб запустити цикл подій.
 
-HTTP is a first class citizen in Node, designed with streaming and low latency
-in mind. This makes Node well suited for the foundation of a web library or
-framework.
+Зазвичай поведінка визначається через функції зворотнього виклику на початку
+скрипта і в кінці запускає сервер через блокуючий виклик,
+як от `EventMachine::run()`. В Node немає нічого подібного на виклик початку
+циклу подій. Node просто входить в подієвий цикл після запуску скрипта на
+виконання. Node виходить з подієвого циклу тоді, коли не залишається
+зареєстрованих функцій зворотнього виклику. Така поведінко схожа на поведінку
+браузерного JavaScript: подієвий цикл прихований від користувача.
 
-Just because Node is designed without threads, doesn't mean you cannot take
-advantage of multiple cores in your environment. Child processes can be spawned
-by using our [`child_process.fork()`][] API, and are designed to be easy to
-communicate with. Built upon that same interface is the [`cluster`][] module,
-which allows you to share sockets between processes to enable load balancing
-over your cores.
+HTTP є об'єктом першого роду в Node, розробленим з потоковістю та малою затримкою. Це робить Node хорошою основою для веб–бібліотеки або фреймворку.
+
+Те що Node спроектований без багатопоточності, не означає, що ви не можете
+використовувати можливості кількох ядер у вашому середовищі. Ви можете
+створювати дочірні процеси, якими легко керувати, з допомогою API
+[`child_process.fork()`][]. Модуль [`cluster`][] подудований на цьому інтерфесі
+і дозволяє вам ділитись сокетами між процесами та керувати розподіляти
+навантаження між ядрами.
 
 [Blocking vs Non-Blocking]: https://github.com/nodejs/node/blob/master/doc/topics/blocking-vs-non-blocking.md
 [`child_process.fork()`]: https://nodejs.org/api/child_process.html#child_process_child_process_fork_modulepath_args_options

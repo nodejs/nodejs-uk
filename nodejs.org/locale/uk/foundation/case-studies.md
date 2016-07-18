@@ -1,27 +1,28 @@
 ---
-title: Node.js Foundation Resources
+title: Ресурси Node.js Foundation
 layout: foundation.hbs
 ---
 
-## Node.js Foundation Survey Results
+## Результати опитування Node.js Foundation
 
-With over 3.5 million users and an annual growth rate of 100 percent, Node.js 
-is emerging as a universal platform used for web applications, IoT, and 
-enterprise. The Node.js User Survey report features insights on emerging trends 
-happening in this massive community that serves as a leading indicator on 
-trends like microservices architectures, real-time web applications, Internet 
-of Things (IoT). The report paints a detailed picture of the technologies that 
-are being used, in particular, with Node.js in production and language 
-preferences (current and future) for front end, back end and IoT developers.
+З понад 3,5 міліонами користувачів та постійним щорічним зростанням на
+100 відсотків, Node.js стає універсальною платформою для веб–додатків, IoT,
+та підприємництва. Звіт з результатів опитування Node.js стосовно
+нових тенденцій, що відбуваються в цій величезній спільноті,
+служить ключовим індикатором тенденцій, як от архітектура мікросервісів,
+real-time веб–додатки, та інтернету речей (IOT). Звіт створює
+детальну картину технологій, що використовуються, зокрема,
+стосовно Node.js у production та мов, яким надають переваги
+(зараз і в майбутньому) у фронт–енді, бек—енді та IoT розробці.
 
-* [Read the full announcement.](/en/blog/announcements/nodejs-foundation-survey/)
-* [See the infographic.](/static/documents/2016-survey-infographic.png)
-* [Read the full report.](/static/documents/2016-survey-report.pdf)
+* [Читати повний анонс.](/en/blog/announcements/nodejs-foundation-survey/)
+* [Подивитись інфографіку.](/static/documents/2016-survey-infographic.png)
+* [Читати повний звіт.](/static/documents/2016-survey-report.pdf)
 
-## Node.js Drives Major Scale and Reliability at Uber
- 
-The ride-sharing platform Uber has an ambitious goal: to make transportation 
-as reliable as running water, everywhere and for everyone. Learn why Uber 
-chose Node.js to power its platform and massive-matching system. 
+## Node.js забезпечує масштабованість та надійність в Uber
 
-Read the [full case study](/static/documents/casestudies/Nodejs-at-Uber.pdf).
+Транспортна платформа Uber має амбітну мету: зробити транспорт надійним,
+скрізь і для всіх. Дізнайтеся, чому Uber обрав Node.js для побудови
+своєї платформи і масивної системи для пошуку співпадінь.
+
+Читайте [повне дослідження](/static/documents/casestudies/Nodejs-at-Uber.pdf).

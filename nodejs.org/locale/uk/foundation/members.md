@@ -1,22 +1,23 @@
 ---
-title: Node.js Foundation Members
+title: Члени Node.js Foundation
 layout: foundation.hbs
 ---
-# Foundation Members
+# Члени фундації
 
-To request information on joining the Node.js Foundation, please email
+Для запиту інформації стосовно приєднання до Node.js Foundation, пишіть за адресою:
 [membership@nodejs.org](mailto:membership@nodejs.org).
 
-Node.js Foundation Membership is open to businesses and individuals. Individual members will be electing two representatives to the Board of Directors in January who will be responsible for representing the diverse needs of the Node.js community in the administration of the Node.js Foundation.
+Node.js Foundation відкритий для бізнесу та окремих осіб. Окремі члени обиратимуть двох представників до складу Ради директорів в січні, які будуть відповідати за подання різноманітних потреб спільноти Node.js в управлінні Node.js Foundation.
 
-## Becoming an Individual Member
+## Стати окремим учасником
 
-Individual membership costs [$100 a year, or $25 for students](https://identity.linuxfoundation.org/user?destination=pid/99) (student discount code: **NodeStudentN10HM**). Contributors to the Node.js project, including all Working Groups and sub-projects, are eligible for free membership.
+Індивідуальне членство коштує [$100 на рік, або $25 для студентів](https://identity.linuxfoundation.org/user?destination=pid/99) (дисконтний код для студентів: **NodeStudentN10HM**). Співучасники проекту Node.js, включаючи всі робочі групи та підпроекти, мають право на безкоштовне членство.
 
-You are required to have a GitHub account to register.
+Вам необхідний GitHub–аккаунт для реєстрації.
 
-# Corporate Members
-## Platinum
+# Корпоративні учасники
+
+## Платинові
 
 <div style="text-align:center;">
 <a target="_new" class="imagelink" href="http://ibm.com">
@@ -39,7 +40,7 @@ You are required to have a GitHub account to register.
 </a>
 </div>
 
-## Gold
+## Золоті
 
 <div style="text-align:center;">
 <a target="_new" class="imagelink" href="//godaddy.com">
@@ -50,7 +51,7 @@ You are required to have a GitHub account to register.
 </a>
 </div>
 
-## Silver
+## Срібні
 
 <div style="text-align:center;">
 <a target="_new" class="imagelink" href="http://apigee.com">
@@ -109,7 +110,7 @@ You are required to have a GitHub account to register.
 </a>
 </div>
 
-To request information on joining the Node.js Foundation, please email
+Для запиту інформації стосовно приєднання до Node.js Foundation, пишіть за адресою:
 [membership@nodejs.org](mailto:membership@nodejs.org).
 
 <iframe class="center"

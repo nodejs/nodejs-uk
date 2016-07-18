@@ -1,12 +1,10 @@
 ---
-title: Node.js Foundation Case Studies
+title: Node.js Foundation дослідження
 layout: foundation.hbs
 ---
 
-## Node.js Drives Major Scale and Reliability at Uber
- 
-The ride-sharing platform Uber has an ambitious goal: to make transportation 
-as reliable as running water, everywhere and for everyone. Learn why Uber 
-chose Node.js to power its platform and massive-matching system. 
+## Node.js забезпечує масштабованість та надійність в Uber
 
-Read the [full case study](/static/documents/casestudies/Nodejs-at-Uber.pdf).
+Транспортна платформа Uber має амбітну мету: зробити транспорт надійним, скрізь і для всіх. Дізнайтеся, чому Uber обрав Node.js для побудови своєї платформи і масивної системи для пошуку співпадінь.
+
+Читайте [повне дослідження](/static/documents/casestudies/Nodejs-at-Uber.pdf).

@@ -5,8 +5,7 @@ layout: foundation.hbs
 
 # Node.js Foundation
 
-Місією Node.js Foundation's mission is to enable widespread adoption and help accelerate development of Node.js and other related modules through an open governance model that encourages participation, technical contribution, and a framework for long term stewardship by an ecosystem invested in Node.js' success.
-Місією Node.js Foundation є забезпечення широкого поширення і прискорення розвитоку Node.js та інших пов'язаних модулів через модель відкритого управління, яка заохочує участь, технічну співпрацю, а також основу для довгострокового стратегічного управління через екосистему, яка сприяла успіху Node.js.
+Місією Node.js Foundation є забезпечення масштабного поширення і прискорення розвитоку Node.js та інших пов'язаних модулів через модель відкритого управління, яка заохочує участь, технічну співпрацю, а також основу для довгострокового стратегічного управління через екосистему, яка сприяла успіху Node.js.
 
 ## Огляд
 

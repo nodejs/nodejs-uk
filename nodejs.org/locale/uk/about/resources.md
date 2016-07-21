@@ -6,7 +6,7 @@ title: Лого та графіка
 
 ## Завантаження лого
 
-Будь–ласка прочитайте [політику товарного знаку](/about/trademark/) щодо дозволеного використання логотипів та позначень Node.js&reg;.
+Будь ласка, прочитайте [політику товарного знаку](/about/trademark/) щодо дозволеного використання логотипів та позначень Node.js&reg;.
 
 Правила візуального оформлення позначень Node.js описані у
 [Visual Guidelines](/static/documents/foundation-visual-guidelines.pdf).
@@ -22,7 +22,7 @@ title: Лого та графіка
   </tr>
   <tr>
     <td bgcolor="#FFFFFF">[![Node.js на світлому фоні](/static/images/logos/nodejs-new-black.png)](/static/images/logos/nodejs-new-black.ai)</td>
-    <td bgcolor="#333333">[![Node.js на тамному фоні](/static/images/logos/nodejs-new-white.png)](/static/images/logos/nodejs-new-white.ai)</td>
+    <td bgcolor="#333333">[![Node.js на темному фоні](/static/images/logos/nodejs-new-white.png)](/static/images/logos/nodejs-new-white.ai)</td>
   </tr>
   <tr>
     <td>[Node.js звичайний з меншою кількістю кольорів AI](/static/images/logos/nodejs-new-black.ai)</td>

@@ -5,8 +5,8 @@ layout: contribute.hbs
 
 # Code + Learn
 
-Code + Learn is a worldwide initiative of workshop sprints to introduce new developers to working on Node.js.  Supportive, hands-on sessions are mentored by existing contributors and tackle real problems.
+Code + Learn це всесвітня ініціатива воркшопів, що мають за мету познайомити нових розробників з тим, як працювати з Node.js. Консультуючі практичні сесії під наставництвом поточних співавторів та вирішення реальних проблем.
 
-Kicking off in September 2015, sprints have already taken place in Dublin and London (led by [LNUG](http://lnug.org/)).
+Запущені у вересні 2015–го, воркшопи відбуваються у Дубліні та Лондоні (під керівництвом [LNUG](http://lnug.org/)).
 
 - [Code + Learn event listings](https://ti.to/code-and-learn)

@@ -1,27 +1,27 @@
 ---
 layout: about.hbs
-title: Organization
+title: Організація
 ---
-# Organization
+# Організація
 
-## Collaborators and the Technical Steering Committee
+## Співавтори і Технічний керівний комітет
 
-The Node.js project is sponsored by the Node.js Foundation and maintained by
-individual Collaborators. The Technical Steering Committee (TSC) membership
-consists of key Collaborators who have demonstrated both technical expertise
-critical to the ongoing maintenance and evolution of the project and a long
-term commitment to driving the project and community forward.
+Проект Node.js спонсорується Node.js Foundation і підтримується окремими
+учасниками. Технічний керівний комітет (Technical Steering Committee (TSC))
+складається з ключових учасників, що продемонстрували як свої спеціальні
+технічні знання і практичну підтримку, так і сприяння потсупальному розвиткові
+проекту та спільноті.
 
-You can read more about how to become a collaborator and a TSC member in [the
-contributing section](/contribute/).
+Ви можете дізнатись більше про те, як стати учасником та членом TSC у
+[розділі для учасників](/contribute/).
 
-### Current collaborators
+### Поточні учасники
 
-The Node.js Project currently has well over 300 contributors actively
-working on different areas of the project. The current list of contributors
-can be found on the project's [GitHub profile](https://github.com/orgs/nodejs/people).
+Наразі, проект Node.js має понад 300 учасників, що активно працюють над різними
+частинами проекту. Поточний список учасників можна знайти у
+[профілі проекту на GitHub](https://github.com/orgs/nodejs/people).
 
-### Current members of the Technical steering committee
+### Поточні члени Технічного керівного комітету
 
 * Alexis Campailla ([orangemocha](https://github.com/orangemocha))
 * Ben Noordhuis ([bnoordhuis](https://github.com/bnoordhuis))

@@ -1,4 +1,4 @@
 ---
-title: Announcements
+title: Анонси
 layout: announcements.hbs
 ---

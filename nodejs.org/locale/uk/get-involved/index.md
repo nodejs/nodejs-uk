@@ -1,50 +1,45 @@
 ---
-title: Get involved
+title: Приєднатись
 layout: contribute.hbs
 ---
 
-# We encourage all kinds of contribution from the community.
+# Ми заохочуємо будь–яку підтримку з боку спільноти.
 
-The Node.js community is large, inclusive, and excited to enable as many users
-to contribute in whatever way they can. If you want to [report an
-issue](https://github.com/nodejs/node/issues), [help with
-documentation](/en/get-involved/contribute/) or [contribute to the code
-base](/en/get-involved/development/) of the project, you’ve come to the
-right place. Explore our community resources to find out how you can help:
+Спільнота Node.js — велика, цілісна і відкрита для багатьох користувачів, які підтримують нас. Якщо ви хочете [повідомити про помилку](https://github.com/nodejs/node/issues), [допомогти з документацією](/en/get-involved/contribute/) або [вдосконалити кодову базу](/en/get-involved/development/) проекту, ви прийшли за адресою. Перегляньте ресурси нашої спільноти, щоб зрозуміти, як ви можете допомогти:
 
 <hr>
 
-## Discussion
+## Обговорення
 
-- The [GitHub issues list](https://github.com/nodejs/node/issues) is the place for discussion of Node.js core features.
+- [Список іш’ю на GitHub](https://github.com/nodejs/node/issues) — це місце, де обговорюють ключовий функціонал Node.js.
 
-- For real-time chat about Node development go to `irc.freenode.net` in the `#node.js` channel with an [IRC client](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) or connect in your web browser to the channel using [freenode's WebChat](http://webchat.freenode.net/?channels=node.js).
+- Для живого чату про розробку на Node перейдіть на `irc.freenode.net` у канал `#node.js` через [IRC клієнт](http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) або підключіться до каналу через веб–браузер з допомогою [ WebChat від freenode](http://webchat.freenode.net/?channels=node.js).
 
-- The official Node.js Twitter account is [nodejs](https://twitter.com/nodejs).
+- Офіційний аккаунт Node.js у Twitter [nodejs](https://twitter.com/nodejs).
 
-- [Node Weekly](http://nodeweekly.com) is an email list that gathers up the latest events and news from around the Node.js community.
+- [Node Weekly](http://nodeweekly.com) це поштове розсилання, що збирає найсвіжіші події та новини довкола спільноти Node.js.
 
-- [Planet Node](http://planetnodejs.com) is an aggregator of Node developer blogs.
+- [Planet Node](http://planetnodejs.com) це агрегатор блогів розробників на Node.
 
-- [NodeUp](http://nodeup.com) is a podcast covering the latest Node news in the community.
+- [NodeUp](http://nodeup.com) подкаст в якому обговорюють найсвіжіші новини з Nod–спільноти.
 
-- [NodeJS Reactions](http://nodejsreactions.tumblr.com) captures the Node.js experience in the form of animated GIFs.
-
-
-## Learning
-
-- [Official API reference documentation](/api) details the Node API.
-
-- [NodeSchool.io](http://nodeschool.io) will teach you Node.js concepts via interactive command-line games.
-
-- [StackOverflow Node.js tag](http://stackoverflow.com/questions/tagged/node.js) collects new information every day.
-
-- [docs.nodejitsu.com](http://docs.nodejitsu.com/) answers many of the common problems people come across.
-
-- [How To Node](http://howtonode.org/) has a growing number of useful tutorials.
+- [NodeJS Reactions](http://nodejsreactions.tumblr.com) відображає досвід роботи з Node.js через анімовані GIF.
 
 
-## International community sites and projects
+## Навчання
+
+- [Офіційна довідкова документація по API](/api) описує Node API.
+
+- [NodeSchool.io](http://nodeschool.io) навчить вас концепцій Node.js через інтерактивні консольні ігри.
+
+- [StackOverflow Node.js tag](http://stackoverflow.com/questions/tagged/node.js) щодня поповнюється новою інформацією.
+
+- [docs.nodejitsu.com](http://docs.nodejitsu.com/) відповіді на загальні питання, які виникають у людей.
+
+- [How To Node](http://howtonode.org/) має велику кількість корисних туторіалів.
+
+
+## Сайти міжнародних спільнот та проекти
 
 - [Australian Node.js blog &amp; developers listing](http://nodejs.org.au/)
 - [Brazilian community of Node.js](http://www.nodebr.com/)

@@ -1,47 +1,54 @@
 ---
 layout: about.hbs
-title: Working Groups
+title: Робочі групи
 ---
 # Working Groups
+
 There are 2 types of Working Groups:
+
 * [Top-Level Working Groups](#top-level-working-groups)
 * [Core Working Groups](#core-working-groups)
 
 ## Top-Level Working Groups
+
 <!-- Information here should mostly mirror: https://github.com/nodejs/TSC/blob/master/WORKING_GROUPS.md -->
 
-Top-Level Working Groups are created by the 
+Top-Level Working Groups are created by the
 [Technical Steering Committee (TSC)](https://github.com/nodejs/TSC#top-level-wgs-and-tlps).
 
 ### Current Top-Level Working Groups
+
 * [Inclusivity](#inclusivity)
 
 #### [Inclusivity](https://github.com/nodejs/inclusivity)
-The Inclusivity Working Group seeks to increase inclusivity and diversity for 
+
+The Inclusivity Working Group seeks to increase inclusivity and diversity for
 the Node.js project:
 
-* Increasing inclusivity means making the Node.js project a safe and friendly 
+* Increasing inclusivity means making the Node.js project a safe and friendly
 place for people from diverse backgrounds.
-* Increasing diversity means actively onboarding people from diverse backgrounds 
+* Increasing diversity means actively onboarding people from diverse backgrounds
 to the Node.js project and maintaining their participation.
 
 Its responsibilites are:
-* Foster a welcoming environment that ensures participants are valued and can 
+
+* Foster a welcoming environment that ensures participants are valued and can
 feel confident contributing or joining discussions, regardless of any [aspect of
 their identity](https://github.com/nodejs/inclusivity/#list-of-responsibilities).
-* Proactively seek and propose concrete steps the project can take to increase 
+* Proactively seek and propose concrete steps the project can take to increase
 inclusivity.
-* Serve as a resource for the development and enforcement of workflows that 
+* Serve as a resource for the development and enforcement of workflows that
 protect community members and projects from harassment and abuse.
-* Acknowledge and celebrate existing diversity accomplishments within the project 
+* Acknowledge and celebrate existing diversity accomplishments within the project
 while seeking to build upon them.
-* Identify ways to measure diversity and inclusivity within the project and report 
+* Identify ways to measure diversity and inclusivity within the project and report
 them at regular intervals.
 
 # Core Working Groups
+
 <!-- Information here should mostly mirror: https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md -->
 
-Core Working Groups are created by the 
+Core Working Groups are created by the
 [Core Technical Committee (CTC)](https://github.com/nodejs/node/blob/master/GOVERNANCE.md#core-technical-committee).
 
 
@@ -70,6 +77,7 @@ The website working group's purpose is to build and maintain a public
 website for the `Node.js` project.
 
 Its responsibilities are:
+
 * Develop and maintain a build and automation system for `nodejs.org`.
 * Ensure the site is regularly updated with changes made to `Node.js` like
 releases and features.
@@ -100,6 +108,7 @@ The build working group's purpose is to create and maintain a
 distributed automation infrastructure.
 
 Its responsibilities are:
+
 * Produce Packages for all target platforms.
 * Run tests.
 * Run performance testing and comparisons.
@@ -112,6 +121,7 @@ The tracing working group's purpose is to increase the
 transparency of software written in Node.js.
 
 Its responsibilities are:
+
 * Collaboration with V8 to integrate with `trace_event`.
 * Maintenance and iteration on AsyncWrap.
 * Maintenance and improvements to system tracing support (DTrace, LTTng, etc.)
@@ -129,6 +139,7 @@ language community might then produce multiple localizations for
 various project resources.
 
 Their responsibilities are:
+
 * Translations of any Node.js materials they believe are relevant to their
 community.
 * Review processes for keeping translations up
@@ -194,6 +205,7 @@ The evangelism working group promotes the accomplishments
 of Node.js and lets the community know how they can get involved.
 
 Their responsibilities are:
+
 * Project messaging.
 * Official project social media.
 * Promotion of speakers for meetups and conferences.
@@ -220,13 +232,14 @@ HTTP implementation in Node. It's responsibilities are:
 The roadmap working group is responsible for user community outreach
 and the translation of their concerns into a plan of action for Node.js.
 
-The final [ROADMAP](https://github.com/nodejs/node/blob/master/ROADMAP.md) document is still 
+The final [ROADMAP](https://github.com/nodejs/node/blob/master/ROADMAP.md) document is still
 owned by the TC and requires the same approval for changes as any other project asset.
 
 Their responsibilities are:
+
 * Attract and summarize user community needs and feedback.
 * Find or potentially create tools that allow for broader participation.
-* Create Pull Requests for relevant changes to 
+* Create Pull Requests for relevant changes to
 [ROADMAP.md](https://github.com/nodejs/node/blob/master/ROADMAP.md)
 
 
@@ -236,6 +249,7 @@ The Docker working group's purpose is to build, maintain, and improve official
 Docker images for the `Node.js` project.
 
 Their responsibilities are:
+
 * Keep the official Docker images updated in line with new `Node.js` releases.
 * Decide and implement image improvements and/or fixes.
 * Maintain and improve the images' documentation.

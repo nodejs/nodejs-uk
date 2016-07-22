@@ -1,8 +1,8 @@
 ---
 layout: about.hbs
-title: Advisory Board
+title: Консультативна рада
 ---
-# Node.js Advisory Board Charter
+# Хартія консультативної ради Node.js
 
 ## 1. Background
 

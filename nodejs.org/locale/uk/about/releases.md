@@ -1,86 +1,81 @@
 ---
 layout: about.hbs
-title: Releases
+title: Релізи
 ---
-# Releases
+# Релізи
 
-The core team defines the roadmap's scope, as informed by Node.js' community.
-Releases happen as often as necessary and practical, but never before work is
-complete. Bugs are unavoidable, but pressure to ship a release will never
-prevail over ensuring the software is correct. The commitment to quality
-software is a core tenet of the Node.js project.
+Основна команда визначила дорожню карту, з якою знайома спільнота Node.js.
+Релізи відбуваються так часто, наскільки це необхідно і практично, проте не
+раніше, ніж роботу буде закінчено.
+Багів не уникнути, проте випуск релізів переважати преред впевненістю щодо коректної роботи програмного забезпечення. Високі стандарти якості є одним з
+ключових пріоритетів проекту Node.js.
 
-## Patches
+## Патчі
 
-Patch releases:
+Патч–релізи:
 
-- Include bug, performance, and security fixes.
-- Do not add nor change public interfaces.
-- Do not alter the expected behavior of a given interface.
-- Can correct behavior if it is out-of-sync with the documentation.
-- Do not introduce changes which make seamless upgrades impossible .
+- включають виправлення багів, покращення безпеки та швидкодії;
+- не додають і не змінюють публічних інтерфейсів;
+- не змінюють очікуваної поведінки даного інтерфейсу;
+- можуть виправляти поведінку, якщо вона не вказана в документації;
+- не вносять зміни, які унеможливлюють безшовні оновлення.
 
-## Minors
+## Мінори
 
-Minor releases:
+Мінорні релізи:
 
-- Include additions and/or refinements of APIs and subsystems.
-- Do not generally change APIs nor introduce backwards-incompatible breaking
-changes, except where unavoidable.
-- Are mostly additive releases.
+- включають доповнення, або розширення API та підсистем;
+- загалом не змінюють API і не вводять зміни, що ламають зворотну сумісність, окрім тих, які неможливо уникнути;
+- є, здебільшого, доповнюючими релізами.
 
-## Majors
+## Мажори
 
-Major releases:
+Мажорні релізи:
 
-- Usually introduce backwards-incompatible, breaking changes.
-- Identify the API Node.js intends to support for the foreseeable future.
-- Require conversation, care, collaboration and appropriate scoping by the team
-and its users.
+- зазвичай вводять зміни, що ламають зворотну сумісність;
+- визначають API Node.js для підтримки у найближчому майбутньому;
+- вимагають обговорень, обережності, співправці між командою та користувачами.
 
-## Scoping Features
+## Оцінка функціональності
 
-The team can add features and APIs into Node.js when:
+Команда може додавати новий функціонал та APІ у Node.js якщо:
 
-- The need is clear.
-- The API or feature has known consumers.
-- The API is clean, useful, and easy-to use.
+- зрозумілі потреби;
+- API або функціонал має відомих споживачів;
+- API є чистим, корисним та зручним для використання.
 
-If when implementing core functionality for Node.js, the team or community may
-identify another lower-level API which could have utility beyond Node.js. When
-identified, Node.js can expose it for consumers.
+При реалізації функціональних можливостей ядра Node.js, команда або спільнота
+може визначити інший API нижчого рівня, які могли б бути корисні поза Node.js.
+Після визначення Node.js може виставити його для споживачів.
 
-For example, consider the [`EventEmitter`] interface.  The need to have an event
-subscription model for core modules to consume was clear, and that abstraction
-had utility beyond the Node.js core.  It was not the case that its interface
-couldn't be implemented externally to Node.js; instead, Node.js needed the
-abstraction for itself, and also exposed it for use by Node.js consumers.
+Наприклад, розглянемо інтерфейс [`EventEmitter`]. Потреба мати модель для підписки на події у модулях ядра є зрозумілою і ця абстракція може використовуватись поза ядром Node.js. Це не той випадок, коли інтерфейс не може бути реалізований поза Node.js, навпаки Node.js потребує цієї абстракції для себе і відкриває її для користувачів Node.js.
 
-Alternatively, it may be that many in the community adopt a pattern to handle
-common needs which Node.js does not satisfy.  It may be clear that Node.js
-should deliver, by default, an API or feature for all Node.js consumers.
-Another possibility is a commonly-used compiled asset which is difficult to
-deliver across environments.  Given this, Node.js may incorporate those changes
-directly.
+Окрім того, може бути таке, що частина спільноти прийме шаблон
+для обробки деяких загальних потреб, який не задовільнятиме Node.js.
+Зрозуміло, що Node.js має за замовчуванням постачати API
+та функціонал для всіх користувачів Node.js.
+Інший можливий випадок полягає у додаткових скомпільованих розширеннях,
+які важко поширювати на різних оточеннях. З огляду на це,
+Node.js може включати ці зміни безпосередньо.
 
-The core team does not take the decision lightly to add a new API to Node.js.
-Node.js has a strong commitment to backwards compatibility. As such, community
-input and conversation must occur before the team takes action. Even if an API
-is otherwise suitable for addition, the team must identify potential consumers.
+Основна команда не приймає легковажно рішення стосовно внесення
+нового API у  Node.js. Node.js надає зворотній сумісності високого пріоритету.
+Таким чином, спільнота має прийняти та обговорити зміни перед тим,
+як команда прийматиме ці зміни. Навіть якщо API добре підходить змінам,
+команда мусить визначити потенційних споживачів.
 
-## Deprecation
+## Визначення застарілості
 
-On occasion, the team must deprecate a feature or API of Node.js. Before coming
-to any final conclusion, the team must identify the consumers of the API and how
-they use it.  Some questions to ask are:
+У деяких випадках команда мусить визнати деякий функціонал та API
+в Node.js застарілими. Перед прийняттям будь–якого остаточного рішення,
+команда мусить визначити користувачів API і те,
+як вони його використовують. Ось деякі запитання до них:
 
-- If this API is widely used by the community, what is the need for flagging it
-as deprecated?
-- Do we have a replacement API, or is there a transitionary path?
-- How long does the API remain deprecated before removal?
-- Does an external module exist which its consumers can easily substitute?
+- Якщо це API широко використовується спільнотою, чому ми маємо визначати його застарілим?
+- Чи маємо ми API для заміни, чи зрозумілим є шлях переходу?
+- Як довго API має залишатись застарілим перед видаленням?
+- Чи існує якийсь зовнішній модуль, яким можна легко його замінити?
 
-The team takes the same careful consideration when deprecating a Node.js API as
-they do when adding another.
+Команда має проявляти таку ж обережність при визначенні APІ застарілим, як і при додаванні нового APІ в Node.js API.
 
 [`EventEmitter`]: https://nodejs.org/api/events.html#events_class_eventemitter

@@ -1,9 +1,9 @@
 ---
 layout: about.hbs
-title: Advisory Board Members
+title: Члени консультативної ради
 ---
-# Advisory Board Members
- 
+# Члени консультативної ради
+
 ## Bert Belder
 
  * StrongLoop, Inc.

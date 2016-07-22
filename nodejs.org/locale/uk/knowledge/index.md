@@ -1,6 +1,6 @@
 ---
-title: Knowledge Base
+title: База знань
 layout: knowledge-base-index.hbs
 ---
 
-# Knowledge Base
+# База знань

@@ -1,23 +1,20 @@
 ---
-title: Node.js Foundation Board of Directors
+title: Рада директорів Node.js Foundation
 layout: foundation.hbs
 ---
 
-The Board of Directors is composed of representatives from corporate members, a representative of the
-Technical Steering Committee, and representatives elected by the individual membership class.
+Рада директорів складається з представників від корпоративних учасників, представників Технічного виконавчого комітету (Technical Steering Committee (TSC)), та представників, що обираються окремими учасниками.
 
-* Chairperson: **Danese Cooper**, distinguished member of technical staff - open source at PayPal.
-* Vice-Chairperson: **Scott Hammond**, chief executive officer at Joyent.
-* Secretary: **Gianugo Rabellino**, senior director of open source programs at Microsoft.
-* TSC Director: **Rod Vagg**, chief node officer at NodeSource.
-* Gold-level Director: **Charlie Robbins**, director of engineering at GoDaddy.com.
-* Silver-level Director: **Brian McCallister**, chief technology officer of platforms at Groupon.
-* Director: **Todd Moore**, vice president of open technology at IBM.
-* Director: **Rich Sharples**, senior director of product management at Red Hat.
-* Director: **Imad Sousou**, vice president and general manager at Intel.
-* Director: **Ashley Williams**, individual membership director.
-* Director: **Feross Aboukhadijeh**, individual membership director.
+* Голова: **Danese Cooper**, шановний член технічного персоналу - open source в PayPal.
+* Заступник голови: **Scott Hammond**, головний виконавчий директор (СTO) в Joyent.
+* Директор TSC: **Rod Vagg**, директор стосовно node в NodeSource.
+* Золотий директор: **Charlie Robbins**, директор з інженерії в GoDaddy.com.
+* Срібний директор: **Brian McCallister**, головний виконавчий директор (СTO) платформ в Groupon.
+* Директор: **Todd Moore**, заступник президента стосовно відкритих технологій в IBM.
+* Директор: **Colleen Evans**, провідний програмний менеджер в Microsoft.
+* Директор: **Rich Sharples**, старший директор з управління продуктами компанії Red Hat.
+* Директор: **Imad Sousou**, заступник президента та генеральний менеджер в Intel.
+* Директор: **Ashley Williams**, директор від індивідуальних членів.
+* Директор: **Feross Aboukhadijeh**, директор від індивідуальних членів.
 
-Independent of the Board, the Technical Steering Committee sets the technical direction of the project,
-including releases, quality standards, project governance and process, GitHub repo hosting, etc. Rod Vagg is
-the technical steering committee's chair representing the TSC on the board of directors.
+Незалежно від ради, технічний виконавчий комітет встановлює напрямок технічного розвитку проекту, включаючи релізи, стандарти якості, управління проектом, хостинг репозиторіїв на GitHub і тд. Rod Vagg є членом та представником Технічного виконавчого комітету у раді директорів.

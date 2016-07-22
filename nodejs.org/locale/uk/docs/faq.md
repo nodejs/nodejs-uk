@@ -4,16 +4,16 @@ layout: docs.hbs
 ---
 # FAQ
 
-## How can I contribute?
+## Як я можу допомогти?
 
-Everyone can help. Node.js adheres to a [code of conduct](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct), and contributions, releases, and contributorship are under an [open governance](https://github.com/nodejs/node/blob/master/GOVERNANCE.md#readme) model.
+Будь–хто може допомогти. Node.js дотримується [правил поведінки](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct), а співпраця, релізи та внески від спільноти керуються моделлю [відкритого керівництва](https://github.com/nodejs/node/blob/master/GOVERNANCE.md#readme).
 
-To get started, there are open [discussions on GitHub](https://github.com/nodejs/node/issues), and we'd love to hear your feedback. Becoming involved in discussions is a good way to get a feel of where you can help out further. If there is something there you feel you can tackle, please [make a pull request](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-contributions).
+Щоб почати, почніть нову [дискусію на GitHub](https://github.com/nodejs/node/issues) — ми раді почути ваші думки. Залучення у дискусію є хорошим способом отримати розуміння того, як ви можете допомогти в подальшому. Якщо є щось, що ви можете, будь–ласка, відкрийте [зробіть пул–реквест](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-contributions).
 
-## Where do discussions take place?
+## Де відбуваються дискусії?
 
-There is an #node.js channel on Freenode IRC. We keep logs of the channel [here](http://logs.libuv.org/node.js/latest).
+На Freenode IRC є канал #node.js. Ми зберігаємо записи з цього каналу [тут](http://logs.libuv.org/node.js/latest).
 
-## What is open source governance?
+## Що таке відкрите управління?
 
-Open source governance advocates the application of the philosophies of the open source and open content movements in order to enable any interested party to add to the creation of the end product, as with a wiki document. Legislation is democratically opened to the general citizenry, employing their collective wisdom to benefit the decision-making process and improve democracy. [[source]](https://en.wikipedia.org/wiki/Open-source_governance)
+Відкрите управління виступає за застосування філософії відкритого коду та відкритого вмісту, щоб дати змогу будь–якій зацікавленій особі долучатись до створення кінцевого продукту так, як і з вікі–документом. Юридичні аспекти демократично відкриті для широких мас, що використовують свою колективну мудрість, щоб принести користь процесу прийняття рішень і вдосконалення демократії. [[source]](https://en.wikipedia.org/wiki/Open-source_governance)

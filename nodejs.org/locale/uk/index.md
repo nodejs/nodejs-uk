@@ -12,7 +12,7 @@ labels:
   tagline-current: Найновіші можливості
   tagline-lts: Рекомандовано для більшості
   changelog: Список змін
-  api: API
+  api: Документація API
   version-schedule-prompt: Або подивіться на
   version-schedule-prompt-link-text: графік LTS
 ---

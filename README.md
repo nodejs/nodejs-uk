@@ -15,7 +15,7 @@
 - Владислав Міллєр ([@vladmiller](https://github.com/vladmiller))
 - Ерік Коцюба ([@eko24](https://github.com/eko24))
 
-Якщо ви бажаєте приєднатися до складу команди, створіть новий запит [тут](https://github.com/тщвуоі/iojs-uk/issues).
+Якщо ви бажаєте приєднатися до складу команди, створіть новий запит [тут](https://github.com/nodejs/nodejs-uk/issues).
 
 ## Інструкції для перекладачів
 

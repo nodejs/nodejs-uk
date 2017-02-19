@@ -8,14 +8,11 @@ layout: foundation.hbs
 Проект Node.js спонсорується Node.js Foundation і підтримується окремими
 учасниками. Технічний керівний комітет (Technical Steering Committee (TSC))
 складається з ключових учасників, що продемонстрували як свої спеціальні
-технічні знання і практичну підтримку, так і сприяння потсупальному розвиткові
+технічні знання і практичну підтримку, так і сприяння поступальному розвиткові
 проекту та спільноті.
 
-You can read more about how to become a collaborator and a TSC member in [the
-contributing section](/en/get-involved/contribute/).
-
 Ви можете дізнатись більше про те, як стати учасником та членом TSC у
-[розділі для учасників](/contribute/).
+[розділі для учасників](/uk/get-involved/contribute/).
 
 ### Поточні учасники
 

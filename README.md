@@ -1,4 +1,4 @@
-# Переклад [Node.js](https://nodejs.org/uk/) українською [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nodejs/nodejs-uk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Переклад [Node.js](https://nodejs.org/uk/) українською [![Gitter](https://badges.gitter.im/Join_Chat.svg)](https://gitter.im/nodejs/nodejs-uk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Обговорення задач — [тут](https://github.com/nodejs/nodejs-uk/issues).
 
